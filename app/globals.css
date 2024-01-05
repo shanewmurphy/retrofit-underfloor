@@ -14,6 +14,7 @@
 }
 blockquote {
   font-size: 4rem;
+  line-height: 4.2rem;
 }
 h1 {
   font-size: var(--h1);
@@ -46,6 +47,9 @@ p {
 .desktop_nav_container {
   display: flex;
 }
+.mobile-nav {
+  display: none;
+}
 @media (max-width: 1024px) {
   :root {
     --h1: 2.986rem;
@@ -66,10 +70,14 @@ p {
   .desktop_nav_container {
     display: none;
   }
+  .mobile-nav {
+    display: flex;
+  }
 }
 @media (max-width: 428px) {
   blockquote {
     font-size: 3rem;
+    line-height: 3.2rem;
   }
 }
 /* @media (max-width: 620px) {

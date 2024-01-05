@@ -25,9 +25,9 @@ export default function BelowFoldSection() {
                 </div>
               </div>
               <div className="flex flex-col items-stretch w-[46%] ml-5 max-md:w-full max-md:ml-0">
-                <div className="leading-6 relative my-auto max-md:max-w-full max-md:mt-10">
+                <div className="leading-6 relative my-auto max-md:max-w-full max-md:mt-8">
                   <p className="text-mygrey font-medium">
-                    Our floorgrinder creates 16mm channels for the heating
+                    Our Concrete Milling creates 16mm channels for the heating
                     pipes, providing a dust-free and bespoke solution our system
                     provides affordable, quick, and eco-friendly heating
                     solutions that saves on energy bills.
