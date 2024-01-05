@@ -2,6 +2,7 @@ import Image from "next/image";
 import NavDesktop from "./components/nav-desktop";
 import BelowFoldSection from "./components/below-fold";
 import NavBarMobile from "./components/nav-mobile";
+import PromoOne from "./components/Promo-One";
 export default function Home() {
   return (
     <div>
@@ -18,7 +19,7 @@ export default function Home() {
             />
           </picture>
           <div className="relative lg:max-w-4xl leading-[58px] lg:mt-72 md:mt-72 sm:mt-72">
-            <blockquote className="text-white display-text font-bold antialiased">
+            <blockquote className="text-white font-bold antialiased">
               Transforming Homes with Underfloor Heating
             </blockquote>
           </div>
@@ -26,6 +27,9 @@ export default function Home() {
       </div>
       <div>
         <BelowFoldSection />
+      </div>
+      <div>
+        <PromoOne />
       </div>
     </div>
   );
