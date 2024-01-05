@@ -3,6 +3,7 @@ import NavDesktop from "./components/nav-desktop";
 import BelowFoldSection from "./components/below-fold";
 import NavBarMobile from "./components/nav-mobile";
 import PromoOne from "./components/Promo-One";
+import UpgradeFloors from "./components/Upgrade-floors";
 export default function Home() {
   return (
     <div>
@@ -30,6 +31,9 @@ export default function Home() {
       </div>
       <div>
         <PromoOne />
+      </div>
+      <div>
+        <UpgradeFloors />
       </div>
     </div>
   );
