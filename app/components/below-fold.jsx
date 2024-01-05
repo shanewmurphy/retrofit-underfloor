@@ -13,12 +13,12 @@ export default function BelowFoldSection() {
               <div className="flex flex-col items-stretch w-[54%] max-md:w-full max-md:ml-0">
                 <div className="relative flex grow flex-col items-stretch max-md:max-w-full max-md:mt-10">
                   <div className="text-mygrey max-md:max-w-full antialiased">
-                    <h3 className="font-bold antialiased">
+                    <h3 className="font-bold text-4xl  mb-2 antialiased">
                       Transform Any Floor into a Underfloor Heating System
                     </h3>
                   </div>
                   <div className="text-lightgrey font-semibold mt-2 max-md:max-w-full">
-                    <h5>
+                    <h5 className="text-2xl">
                       Without the need to remove or raise the existing screed
                     </h5>
                   </div>

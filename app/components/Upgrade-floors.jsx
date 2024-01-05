@@ -4,8 +4,8 @@ export default function UpgradeFloors() {
       <div className="bg-secondary self-stretch w-full pl-16 pr-20 py-24 max-md:max-w-full max-md:px-5">
         <div className="grid lg:grid-cols-2 lg:gap-16">
           <div>
-            <div className="text-white text-5xl mb-8 font-bold">
-              Upgrade Your Floors to Underfloor Heating
+            <div className="text-white text-4xl mb-8 font-bold">
+              <h2>Upgrade Your Floors to Underfloor Heating</h2>
             </div>
           </div>
           <div>
@@ -18,7 +18,7 @@ export default function UpgradeFloors() {
         </div>
         <div className="grid lg:grid-cols-2 text-white gap-x-16 gap-y-8 mt-16">
           <div>
-            <p>
+            <p className="text-base">
               Effortlessly retrofit underfloor heating into your existing floor
               constructions.
             </p>
