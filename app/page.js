@@ -5,6 +5,7 @@ import NavBarMobile from "./components/nav-mobile";
 import PromoOne from "./components/Promo-One";
 import UpgradeFloors from "./components/Upgrade-floors";
 import BenefitsSection from "./components/Key-benefits";
+import RadiatorsUnderfloor from "./components/radiators-underfloor";
 export default function Home() {
   return (
     <div>
@@ -38,6 +39,9 @@ export default function Home() {
       </div>
       <div>
         <BenefitsSection />
+      </div>
+      <div>
+        <RadiatorsUnderfloor />
       </div>
     </div>
   );
