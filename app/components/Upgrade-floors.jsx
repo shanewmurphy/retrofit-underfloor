@@ -1,11 +1,13 @@
 export default function UpgradeFloors() {
   return (
     <div>
-      <div className="bg-secondary self-stretch w-full pl-16 pr-20 py-24 max-md:max-w-full max-md:px-5">
+      <div className="bg-secondary self-stretch w-full pl-16 pr-24 py-24 max-md:max-w-full max-md:px-5 antialiased">
         <div className="grid lg:grid-cols-2 lg:gap-16">
           <div>
-            <div className="text-white text-4xl mb-8 font-bold">
-              <h2>Upgrade Your Floors to Underfloor Heating</h2>
+            <div className="sm:mb-4 font-bold">
+              <h2 className="text-white lg:text-5xl md:text-6xl sm:text-4xl leading-snug">
+                Upgrade Your Floors to Underfloor Heating
+              </h2>
             </div>
           </div>
           <div>
@@ -16,24 +18,26 @@ export default function UpgradeFloors() {
             </div>
           </div>
         </div>
-        <div className="grid lg:grid-cols-2 text-white gap-x-16 gap-y-8 mt-16">
+        <div className="grid lg:grid-cols-2 text-white gap-x-16 gap-y-8 mt-16 antialiased">
           <div>
-            <p className="text-base">
+            <p className="text-base font-medium">
               Effortlessly retrofit underfloor heating into your existing floor
               constructions.
             </p>
           </div>
           <div>
-            <p>
+            <p className="text-base font-medium">
               Enjoy the benefits of a dust-free, bespoke, and responsive heating
               solution
             </p>
           </div>
           <div>
-            <p>Save on your fuel bill while reducing your carbon footprint</p>
+            <p className="text-base font-medium">
+              Save on your fuel bill while reducing your carbon footprint
+            </p>
           </div>
           <div>
-            <p>
+            <p className="text-base font-medium">
               Our system can work with oil, gas or air to water heatpump heating
               systems
             </p>
