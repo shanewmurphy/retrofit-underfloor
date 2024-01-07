@@ -5,7 +5,7 @@ export default function BenefitsSection() {
         <div>
           <div className="max-md:max-w-full">
             <h3 className="text-zinc-800 lg:text-5xl md:text-6xl sm:text-4xl font-bold leading-snug mb-6 antialiased">
-              Affordable, Quick, Dust-Free
+              Affordable, Quick, and Dust-Free
             </h3>
             <p className="text-lightgrey text-base mb-6 font-semibold antialiased">
               Our revolutionary underfloor heating system offers affordability,
