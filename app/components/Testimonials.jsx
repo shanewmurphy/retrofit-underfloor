@@ -52,7 +52,7 @@ export default function Testimonials() {
           <div className="w-7/12 mx-auto">
             <div>
               {data.map((user) => (
-                <SwiperSlide>
+                <SwiperSlide key={user.id}>
                   <div key={user.id}>
                     <p className="text-center font-medium lg:text-2xl md:text-2xl sm:text-base mt-6">
                       {user.Comment}
