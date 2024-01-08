@@ -11,7 +11,7 @@ export default function UnderfloorHeating() {
             </div>
           </div>
           <div>
-            <p className="text-sm text-lightgrey font-medium">
+            <p className="text-base text-lightgrey font-medium">
               Our underfloor heating system offers numerous advantages. It
               serves as the primary heat source, providing the most comfortable
               and uniform level of warmth. The system is highly efficient, using
