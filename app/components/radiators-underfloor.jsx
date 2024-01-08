@@ -19,7 +19,7 @@ export default function RadiatorsUnderfloor() {
                 <div className="text-zinc-800 lg:text-lg font-bold leading-7 whitespace-nowrap antialiased">
                   Comfortable & Efficient
                 </div>
-                <p className="text-sm font-medium text-lightgrey antialiased">
+                <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">
                   Experience the ultimate comfort and energy efficiency with our
                   underfloor heating system.
                 </p>
@@ -28,7 +28,7 @@ export default function RadiatorsUnderfloor() {
                 <div className="text-zinc-800 lg:text-lg font-bold leading-7 whitespace-nowrap">
                   Cost-effective Solution
                 </div>
-                <p className="text-sm font-medium text-lightgrey antialiased">
+                <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">
                   Save on energy bills and enjoy the benefits of underfloor
                   heating in your home.
                 </p>
