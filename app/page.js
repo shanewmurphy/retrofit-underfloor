@@ -7,6 +7,7 @@ import UpgradeFloors from "./components/Upgrade-floors";
 import BenefitsSection from "./components/Key-benefits";
 import RadiatorsUnderfloor from "./components/radiators-underfloor";
 import UnderfloorHeating from "./components/Underfloor-heating";
+import Instalation from "./components/instalation";
 export default function Home() {
   return (
     <div>
@@ -46,6 +47,9 @@ export default function Home() {
       </div>
       <div>
         <UnderfloorHeating />
+      </div>
+      <div>
+        <Instalation />
       </div>
     </div>
   );

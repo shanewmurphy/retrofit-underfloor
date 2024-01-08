@@ -36,12 +36,13 @@ export default function RadiatorsUnderfloor() {
             </div>
           </div>
           <div>
-            <div className="">
+            <div>
               <picture>
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a2d66e80636fcbe0248376f0ccb64646053d1f5ae4164ff643a09039b8c7310e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a2d66e80636fcbe0248376f0ccb64646053d1f5ae4164ff643a09039b8c7310e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a2d66e80636fcbe0248376f0ccb64646053d1f5ae4164ff643a09039b8c7310e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a2d66e80636fcbe0248376f0ccb64646053d1f5ae4164ff643a09039b8c7310e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a2d66e80636fcbe0248376f0ccb64646053d1f5ae4164ff643a09039b8c7310e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a2d66e80636fcbe0248376f0ccb64646053d1f5ae4164ff643a09039b8c7310e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a2d66e80636fcbe0248376f0ccb64646053d1f5ae4164ff643a09039b8c7310e?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a2d66e80636fcbe0248376f0ccb64646053d1f5ae4164ff643a09039b8c7310e?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
                   className="aspect-[1.38] object-contain object-center w-full overflow-hidden mt-1.5 max-md:mt-10"
+                  alt=""
                 />
               </picture>
             </div>

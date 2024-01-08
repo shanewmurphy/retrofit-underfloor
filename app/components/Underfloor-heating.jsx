@@ -42,8 +42,8 @@ export default function UnderfloorHeating() {
                 src="./girl/girl-floor-500-min.jpg"
                 alt=""
               />
-              <div class="absolute bottom-0 left-0 w-full lg:h-56 md:h-48 sm:h-28 flex">
-                <p class="text-white lg:text-6xl md:text-5xl sm:text-3xl lg:pl-8 md:pl-8 sm:pl-4 lg:w-[60%] md:w-[80%] font-bold">
+              <div className="absolute bottom-0 left-0 w-full lg:h-56 md:h-48 sm:h-28 flex">
+                <p className="text-white lg:text-6xl md:text-5xl sm:text-3xl lg:pl-8 md:pl-8 sm:pl-4 lg:w-[60%] md:w-[80%] font-bold">
                   Feel the heat in every corner of the room
                 </p>
               </div>
