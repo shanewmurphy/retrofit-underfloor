@@ -54,19 +54,19 @@ export default function FAQ() {
   return (
     <div className="mb-24 mt-24">
       <div className="lg:px-24 lg:py-12 md:px-24 md:py-24 sm:px-4 sm:py-8">
-        <h3 className="text-center text-5xl text-mygrey font-bold mb-4">
+        <h3 className="text-center text-5xl text-mygrey font-bold mb-2">
           FAQs
         </h3>
-        <p className="text-center font-semibold text-lightgrey w-[70%] mx-auto">
+        <p className="text-center font-semibold text-lightgrey lg:w-[70%] mx-auto">
           Find answers to the most common questions about our underfloor heating
-          system, installation process, and maintenance.
+          system and installation process.
         </p>
       </div>
       <div className="lg:w-10/12 sm:w-11/12 mx-auto">
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 lg:gap-8 md:gap-8 sm:gap-6">
           {data.map((faq) => (
             <div key={faq.id}>
-              <div className="">
+              <div>
                 <Disclosure>
                   {({ open }) => (
                     <>
@@ -80,7 +80,7 @@ export default function FAQ() {
                           />
                         </div>
                       </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm  text-gray-500">
+                      <Disclosure.Panel className="px-4 pb-2 pt-4 text-sm font-medium text-lightgrey">
                         {faq.Answer}
                       </Disclosure.Panel>
                     </>
