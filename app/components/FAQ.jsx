@@ -70,7 +70,7 @@ export default function FAQ() {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex items-center w-full bg-zinc-100/50 rounded-lg lg:h-16 sm:h-20 justify-between px-4 py-2 text-left text-sm font-medium text-mygrey hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
+                      <Disclosure.Button className="flex items-center w-full lg:bg-zinc-100/50 sm:bg-zinc-100/70 rounded-lg lg:h-16 sm:h-20 justify-between px-4 py-2 text-left text-sm font-medium text-mygrey hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
                         <span>{faq.Question}</span>
                         <div>
                           <ChevronUpIcon
