@@ -27,7 +27,7 @@ export default function Instalation() {
               alt=""
             />
             <div>
-              <h6 className="text-zinc-800 text-xl font-bold leading-7 mt-4 mb-2">
+              <h6 className="text-zinc-800 lg:text-xl md:text-xl sm:text-2xl font-bold leading-7 mt-4 mb-2">
                 Our Custom Floor Cutting for Your Needs
               </h6>
               <p className="text-sm sm:text-base font-medium text-lightgrey">
@@ -46,7 +46,7 @@ export default function Instalation() {
             />
           </div>
           <div>
-            <h6 className="text-zinc-800 text-xl font-bold leading-7 mt-4 mb-2">
+            <h6 className="text-zinc-800 lg:text-xl md:text-xl sm:text-2xl font-bold leading-7 mt-4 mb-2">
               Seamless Integration with Existing Systems
             </h6>
             <p className="text-sm sm:text-base  font-medium text-lightgrey">
@@ -65,7 +65,7 @@ export default function Instalation() {
             />
           </div>
           <div>
-            <h6 className="text-zinc-800 text-xl font-bold leading-7 mt-4 mb-2">
+            <h6 className="text-zinc-800 lg:text-xl md:text-xl sm:text-2xl font-bold leading-7 mt-4 mb-2">
               Feel the Warmth In Every Corner of the Room
             </h6>
             <p className="text-sm sm:text-base font-medium text-lightgrey">
