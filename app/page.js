@@ -11,6 +11,7 @@ import Instalation from "./components/instalation";
 import PromoTwo from "./components/Promo-Two";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
@@ -62,6 +63,9 @@ export default function Home() {
       </div>
       <div>
         <FAQ />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

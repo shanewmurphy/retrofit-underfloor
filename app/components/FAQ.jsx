@@ -52,12 +52,12 @@ const data = [
 ];
 export default function FAQ() {
   return (
-    <div className="mb-24 mt-24">
+    <div className="mb-24 mt-24 sm:pb-48">
       <div className="lg:px-24 lg:py-12 md:px-24 md:py-24 sm:px-4 sm:py-8">
         <h3 className="text-center text-5xl text-mygrey font-bold mb-2">
           FAQs
         </h3>
-        <p className="text-center font-semibold text-lightgrey lg:w-[50%] mx-auto">
+        <p className="text-center font-semibold text-lightgrey lg:w-[60%] mx-auto">
           Find answers to the most common questions about our underfloor heating
           system and installation process.
         </p>
@@ -70,7 +70,7 @@ export default function FAQ() {
                 <Disclosure>
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex py-6 px-6 text-sm sm:text-base items-center w-full lg:bg-zinc-100/50 sm:bg-zinc-100/70 rounded-lg  justify-between text-left font-medium text-mygrey hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
+                      <Disclosure.Button className="flex py-6 px-6 lg:text-sm md:text-sm sm:text-base items-center w-full lg:bg-zinc-100/50 sm:bg-zinc-100/70 rounded-lg  justify-between text-left font-medium text-mygrey hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
                         <span>{faq.Question}</span>
                         <div>
                           <ChevronUpIcon

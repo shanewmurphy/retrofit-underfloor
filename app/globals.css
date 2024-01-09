@@ -12,6 +12,13 @@ blockquote {
   font-size: 4rem;
   line-height: 4.2rem;
 }
+.footer-container {
+  width: 100vw;
+  background-image: url("/Footer/Footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vh;
+}
 @media (max-width: 768px) {
   .desktop_nav_container {
     display: none;
@@ -24,6 +31,13 @@ blockquote {
 @media (max-width: 620px) {
   .desktop_nav_container {
     display: none;
+  }
+  .footer-container {
+    width: 100vw;
+    background-image: url("/Footer/Footer-bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
   }
 }
 @media (max-width: 428px) {
