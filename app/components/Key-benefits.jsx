@@ -18,7 +18,7 @@ export default function BenefitsSection() {
           </div>
           <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-flow-row gap-8 mt-8">
             <div>
-              <div className="text-zinc-800 lg:text-lg font-bold leading-7 whitespace-nowrap antialiased">
+              <div className="text-zinc-800 lg:text-lg md:text-xl sm:text-xl font-bold leading-7 whitespace-nowrap antialiased">
                 No Sub-floor needed
               </div>
               <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">
@@ -27,7 +27,7 @@ export default function BenefitsSection() {
               </p>
             </div>
             <div>
-              <div className="text-zinc-800 lg:text-lg font-bold leading-7 whitespace-nowrap">
+              <div className="text-zinc-800 lg:text-lg md:text-xl sm:text-xl font-bold leading-7 whitespace-nowrap">
                 Quick Installation
               </div>
               <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">

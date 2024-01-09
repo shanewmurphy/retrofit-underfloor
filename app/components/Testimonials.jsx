@@ -38,7 +38,7 @@ export default function Testimonials() {
   const swiperRef = useRef();
 
   return (
-    <div className="w-full bg-zinc-200">
+    <div className="w-full bg-zinc-100">
       <div className="lg:w-9/12 mx-auto lg:p-28 md:p-24 sm:p-6 sm:pt-24">
         <div>
           <h4 className="text-center text-zinc-800 lg:text-5xl md:text-5xl sm:text-4xl font-bold">
@@ -70,10 +70,10 @@ export default function Testimonials() {
                     <p className="text-center text-lightgrey font-medium lg:text-2xl md:text-2xl sm:text-base mt-6">
                       {user.Comment}
                     </p>
-                    <h2 className="text-center text-xl font-semibold mt-4">
+                    <h2 className="text-center text-zinc-800 text-xl font-semibold mt-4">
                       {user.name}
                     </h2>
-                    <p className="text-center font-medium text-sm">
+                    <p className="text-center text-lightgrey font-medium text-sm">
                       {user.location}
                     </p>
                   </div>

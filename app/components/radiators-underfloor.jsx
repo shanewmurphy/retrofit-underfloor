@@ -16,7 +16,7 @@ export default function RadiatorsUnderfloor() {
             </p>
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-flow-row gap-8 mt-8">
               <div>
-                <div className="text-zinc-800 lg:text-lg font-bold leading-7 whitespace-nowrap antialiased">
+                <div className="text-zinc-800 lg:text-lg md:text-xl sm:text-xl font-bold leading-7 whitespace-nowrap antialiased">
                   Comfortable & Efficient
                 </div>
                 <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">
@@ -25,7 +25,7 @@ export default function RadiatorsUnderfloor() {
                 </p>
               </div>
               <div>
-                <div className="text-zinc-800 lg:text-lg font-bold leading-7 whitespace-nowrap">
+                <div className="text-zinc-800 lg:text-lg md:text-xl sm:text-xl font-bold leading-7 whitespace-nowrap">
                   Cost-effective Solution
                 </div>
                 <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">

@@ -1,7 +1,7 @@
 export default function UnderfloorHeating() {
   return (
     <div>
-      <div className="w-11/12 pt-24 py-24 mx-auto">
+      <div className="w-11/12 lg:pt-24 lg:py-24 mx-auto">
         <div className="grid lg:grid-cols-2 lg:gap-16">
           <div>
             <div className="max-md:max-w-full max-md:mt-10">
@@ -42,7 +42,7 @@ export default function UnderfloorHeating() {
                 src="./girl/girl-floor-500-min.jpg"
                 alt=""
               />
-              <div className="absolute bottom-0 left-0 w-full lg:h-56 md:h-48 sm:h-28 flex">
+              <div className="absolute bottom-0 left-0 w-full lg:h-56 md:h-48 sm:h-24 flex">
                 <p className="text-white lg:text-6xl md:text-5xl sm:text-3xl lg:pl-8 md:pl-8 sm:pl-4 lg:w-[60%] md:w-[80%] font-bold">
                   Feel the heat in every corner of the room
                 </p>

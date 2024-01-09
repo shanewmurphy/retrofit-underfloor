@@ -10,6 +10,7 @@ import UnderfloorHeating from "./components/Underfloor-heating";
 import Instalation from "./components/instalation";
 import PromoTwo from "./components/Promo-Two";
 import Testimonials from "./components/Testimonials";
+import FAQ from "./components/FAQ";
 export default function Home() {
   return (
     <div>
@@ -58,6 +59,9 @@ export default function Home() {
       </div>
       <div>
         <Testimonials />
+      </div>
+      <div>
+        <FAQ />
       </div>
     </div>
   );

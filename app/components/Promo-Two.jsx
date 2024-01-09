@@ -26,7 +26,7 @@ export default function PromoTwo() {
               <h4 className="text-white lg:text-6xl md:text-5xl sm:text-5xl font-bold leading-[58px] mt-8 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
                 Experience the ultimate heating comfort
               </h4>
-              <h5 className="text-white lg:text-3xl md:text-4xl sm:text-2xl lg:w-[90%] font-semibold leading-8 mt-7 max-md:max-w-full">
+              <h5 className="text-white lg:text-3xl md:text-4xl sm:text-3xl lg:w-[90%] font-semibold leading-8 mt-7 max-md:max-w-full">
                 Upgrade your home with underfloor heating a low temperature
                 heating system
               </h5>
