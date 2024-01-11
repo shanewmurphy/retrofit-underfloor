@@ -14,7 +14,7 @@ export default function ServiceOffer() {
           We are one-stop solution for all your heating and plumbing needs
         </div>
         <div className="relative text-white text-2xl font-semibold max-w-[650px] mt-9 max-md:max-w-full">
-          You won't need to hire a separate plumber for the connection. We
+          You won&apos;t need to hire a separate plumber for the connection. We
           handle the entire process from start to finish.
         </div>
         <div className="relative text-white text-xl font-medium max-w-[650px] mt-9 mb-32 max-md:max-w-full max-md:mb-10">
