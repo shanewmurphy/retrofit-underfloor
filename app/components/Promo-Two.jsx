@@ -1,7 +1,7 @@
 export default function PromoTwo() {
   return (
     <div>
-      <div className="w-full lg:h-auto md:h-auto sm:h-screen relative lg:mt-64">
+      <div className="w-full lg:h-auto md:h-auto sm:h-screen relative">
         <picture>
           <source
             media="(min-width: 1200px)"

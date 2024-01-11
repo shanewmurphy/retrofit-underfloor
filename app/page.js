@@ -12,6 +12,7 @@ import PromoTwo from "./components/Promo-Two";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import ServiceOffer from "./components/service-offer";
 export default function Home() {
   return (
     <div>
@@ -56,10 +57,13 @@ export default function Home() {
         <Instalation />
       </div>
       <div>
-        <PromoTwo />
+        <ServiceOffer />
       </div>
       <div>
         <Testimonials />
+      </div>
+      <div>
+        <PromoTwo />
       </div>
       <div>
         <FAQ />
