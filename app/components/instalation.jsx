@@ -30,7 +30,7 @@ export default function Instalation() {
               <h6 className="text-zinc-800 lg:text-xl md:text-xl sm:text-2xl font-bold leading-7 mt-4 mb-2">
                 Our Custom Floor Cutting for Your Needs
               </h6>
-              <p className="text-sm sm:text-base font-medium text-lightgrey">
+              <p className="lg:text-sm md:text-base sm:text-base font-medium text-lightgrey">
                 We offer bespoke floor cutting on-site to ensure a perfect fit
                 for your underfloor heating system.
               </p>
@@ -49,7 +49,7 @@ export default function Instalation() {
             <h6 className="text-zinc-800 lg:text-xl md:text-xl sm:text-2xl font-bold leading-7 mt-4 mb-2">
               Seamless Integration with Existing Systems
             </h6>
-            <p className="text-sm sm:text-base  font-medium text-lightgrey">
+            <p className="lg:text-sm md:text-base sm:text-base  font-medium text-lightgrey">
               Our underfloor heating system seamlessly integrates with existing
               heating systems, making it easy to combine and reducing energy
               usage and bills.
@@ -68,7 +68,7 @@ export default function Instalation() {
             <h6 className="text-zinc-800 lg:text-xl md:text-xl sm:text-2xl font-bold leading-7 mt-4 mb-2">
               Feel the Warmth In Every Corner of the Room
             </h6>
-            <p className="text-sm sm:text-base font-medium text-lightgrey">
+            <p className="lg:text-sm md:text-base sm:text-base font-medium text-lightgrey">
               Experience the comfort of our underfloor heating system as it
               warms up your space in minutes.
             </p>

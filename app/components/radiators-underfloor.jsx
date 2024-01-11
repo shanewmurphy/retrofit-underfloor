@@ -7,7 +7,7 @@ export default function RadiatorsUnderfloor() {
             <h4 className="text-zinc-800 lg:text-5xl md:text-6xl sm:text-4xl font-bold leading-snug mb-6 antialiased">
               Underfloor Heating vs Radiators
             </h4>
-            <p className="text-lightgrey text-base font-semibold">
+            <p className="text-lightgrey text-base font-medium">
               Underfloor heating provides the most comfortable and uniform level
               of warmth. It is also energy-efficient and cost-effective.
               Underfloor heating systems are often more efficient than radiators

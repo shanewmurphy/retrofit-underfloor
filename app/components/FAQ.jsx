@@ -57,7 +57,7 @@ export default function FAQ() {
         <h3 className="text-center text-5xl text-mygrey font-bold mb-2">
           FAQs
         </h3>
-        <p className="text-center font-semibold text-lightgrey lg:w-[60%] mx-auto">
+        <p className="text-center font-medium text-lightgrey lg:w-[60%] mx-auto">
           Find answers to the most common questions about our underfloor heating
           system and installation process.
         </p>

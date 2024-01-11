@@ -20,24 +20,24 @@ export default function UpgradeFloors() {
         </div>
         <div className="grid lg:grid-cols-2 text-white gap-x-16 gap-y-8 mt-16 antialiased">
           <div>
-            <p className="text-base font-medium">
+            <p className="lg:text-base md:text-xl sm:text-xl font-medium">
               Effortlessly retrofit underfloor heating into your existing floor
               constructions.
             </p>
           </div>
           <div>
-            <p className="text-base font-medium">
+            <p className="lg:text-base md:text-xl sm:text-xl font-medium">
               Enjoy the benefits of a dust-free, bespoke, and responsive heating
               solution
             </p>
           </div>
           <div>
-            <p className="text-base font-medium">
+            <p className="lg:text-base md:text-xl sm:text-xl font-medium">
               Save on your fuel bill while reducing your carbon footprint
             </p>
           </div>
           <div>
-            <p className="text-base font-medium">
+            <p className="lg:text-base md:text-xl sm:text-xl font-medium">
               Our system can work with oil, gas or air to water heatpump heating
               systems
             </p>
