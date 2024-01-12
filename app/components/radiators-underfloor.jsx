@@ -1,7 +1,7 @@
 export default function RadiatorsUnderfloor() {
   return (
     <div className="bg-white">
-      <div className="w-11/12 pt-24 py-24 mx-auto">
+      <div className="w-11/12 pt-24 py-24 my-16 mx-auto">
         <div className="grid lg:grid-cols-2 lg:gap-16">
           <div>
             <h4 className="text-zinc-800 lg:text-5xl md:text-6xl sm:text-4xl font-bold leading-snug mb-6 antialiased">

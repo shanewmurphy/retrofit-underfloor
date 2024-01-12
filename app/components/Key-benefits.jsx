@@ -31,8 +31,8 @@ export default function BenefitsSection() {
                 Quick Installation
               </div>
               <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">
-                Installations of our system can be completed in just one working
-                day.
+                Installations of our system can be completed in 3 - 5 working
+                days.
               </p>
             </div>
           </div>

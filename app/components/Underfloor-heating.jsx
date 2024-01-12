@@ -1,7 +1,7 @@
 export default function UnderfloorHeating() {
   return (
     <div>
-      <div className="w-11/12 lg:pt-24 lg:py-24 mx-auto">
+      <div className="w-11/12 lg:pt-24 lg:py-24 mt-32 mx-auto">
         <div className="grid lg:grid-cols-2 lg:gap-16">
           <div>
             <div className="max-md:max-w-full max-md:mt-10">

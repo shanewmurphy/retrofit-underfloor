@@ -13,15 +13,20 @@ export default function ServiceOffer() {
         <div className="relative text-white text-4xl font-bold max-w-[650px] mt-9 max-md:max-w-full">
           We are one-stop solution for all your heating and plumbing needs
         </div>
-        <div className="relative text-white text-2xl font-semibold max-w-[650px] mt-9 max-md:max-w-full">
+        <div>
+          <h3 className="relative font-semibold text-white lg:text-3xl max-w-[650px] mt-6 max-md:max-w-full">
+            We are also expert plumbers with over 40 years experience
+          </h3>
+        </div>
+        <div className="relative text-white text-2xl font-medium max-w-[650px] mt-9 max-md:max-w-full">
           You won&apos;t need to hire a separate plumber for the connection. We
           handle the entire process from start to finish.
         </div>
-        <div className="relative text-white text-xl font-medium max-w-[650px] mt-9 mb-32 max-md:max-w-full max-md:mb-10">
+        {/* <div className="relative text-white text-xl font-medium max-w-[650px] mt-9 mb-32 max-md:max-w-full max-md:mb-10">
           Unlike other underfloor heating providers, we go beyond just
           delivering a remarkable heating experience. Why? We are also expert
           plumbers with 25 years experience
-        </div>
+        </div> */}
       </div>
     </div>
   );
