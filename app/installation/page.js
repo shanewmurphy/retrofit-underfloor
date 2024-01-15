@@ -39,21 +39,21 @@ export default function InstallationPage() {
             </h3>
           </div>
           <div className="lg:w-11/12 mx-auto mt-16">
-            <div className="grid lg:grid-cols-3 gap-8 lg:mt-16 px-4">
+            <div className="grid lg:grid-cols-3 lg:gap-8 md:gap-16 sm:gap-16 lg:mt-16 px-4">
               <div>
                 <div>
                   <picture>
                     <img
-                      className="rounded-md"
+                      className="rounded-md w-full object-cover"
                       src="./installation/step-one.jpg"
                       alt=""
                     />
                   </picture>
-                  <h4 className="text-white text-base lg:min-h-6  font-semibold leading-6 mt-3">
+                  <h4 className="text-white lg:text-base md:text-xl sm:text-xl lg:min-h-6  font-semibold leading-6 mt-3">
                     Step One: Create tightly routed grooves in the floor using
                     our Concrete Milling Machine
                   </h4>
-                  <p className="text-zinc-300 text-sm font-medium mt-2">
+                  <p className="text-zinc-300 lg:text-sm md:text-base sm:text-base font-medium mt-2">
                     Lay the underfloor heating pipes into the created channels
                   </p>
                 </div>
@@ -62,17 +62,18 @@ export default function InstallationPage() {
                 <div>
                   <picture>
                     <img
-                      className="rounded-md"
+                      className="rounded-md w-full object-cover"
                       src="./installation/step-two.jpg"
                       alt=""
                     />
                   </picture>
-                  <h4 className="text-white text-base lg:min-h-5 font-semibold leading-6 mt-3">
+                  <h4 className="text-white lg:text-base md:text-xl sm:text-xl lg:min-h-5 font-semibold leading-6 mt-3">
                     Step two: Connect the heating system to the primary heat
                     source
                   </h4>
-                  <p className="text-zinc-300 text-sm font-medium mt-2">
-                    Experience the warmth within in every corner of the room
+                  <p className="text-zinc-300 lg:text-sm md:text-base sm:text-base font-medium mt-2">
+                    Test the entire underfloor heating system for leaks,
+                    verifying temperature control functionality
                   </p>
                 </div>
               </div>
@@ -80,16 +81,16 @@ export default function InstallationPage() {
                 <div>
                   <picture>
                     <img
-                      className="rounded-md"
+                      className="rounded-md w-full object-cover"
                       src="./installation/step-three.jpg"
                       alt=""
                     />
                   </picture>
-                  <h4 className="text-white text-base lg:min-h-5 font-semibold leading-6 mt-3">
+                  <h4 className="text-white lg:text-base md:text-xl sm:text-xl lg:min-h-5 font-semibold leading-6 mt-3">
                     Step Three: Enjoy the energy-efficient and eco-friendly
                     heating system
                   </h4>
-                  <p className="text-zinc-300 text-sm font-medium mt-2">
+                  <p className="text-zinc-300 lg:text-sm md:text-base sm:text-base font-medium mt-2">
                     Experience the warmth within in every corner of the room
                   </p>
                 </div>
@@ -97,7 +98,7 @@ export default function InstallationPage() {
             </div>
           </div>
           <div className="lg:w-8/12 md:w-11/12 sm:w-11/12 mx-auto">
-            <h5 className="text-white text-center lg::text-xl font-medium mt-16">
+            <h5 className="text-white lg:text-3xl md:text-3xl sm:text-lg text-center font-medium mt-16">
               We rigorously test the entire underfloor heating system. This
               includes checking for leaks, verifying temperature control
               functionality, and ensuring that every aspect operates at peak
