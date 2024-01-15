@@ -1,7 +1,5 @@
 import Image from "next/image";
-import NavDesktop from "./components/nav-desktop";
 import BelowFoldSection from "./components/below-fold";
-import NavBarMobile from "./components/nav-mobile";
 import PromoOne from "./components/Promo-One";
 import UpgradeFloors from "./components/Upgrade-floors";
 import BenefitsSection from "./components/Key-benefits";
@@ -17,8 +15,6 @@ export default function Home() {
   return (
     <div>
       <div className="relative">
-        <NavDesktop />
-        <NavBarMobile />
         <div className="flex-col overflow-hidden self-stretch relative flex min-h-[605px] w-full items-stretch px-16 py-12 max-md:max-w-full max-md:px-5">
           <picture>
             <img

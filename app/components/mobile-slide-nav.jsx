@@ -2,7 +2,7 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-
+import Link from "next/link";
 export default function MobileSlideNav() {
   const [open, setOpen] = useState(false);
   return (
@@ -23,10 +23,9 @@ export default function MobileSlideNav() {
           >
             <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
           </Transition.Child>
-
           <div className="fixed inset-0 overflow-hidden">
             <div className="absolute inset-0 overflow-hidden">
-              <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+              <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-16">
                 <Transition.Child
                   as={Fragment}
                   enter="transform transition ease-in-out duration-500 sm:duration-700"
@@ -65,7 +64,11 @@ export default function MobileSlideNav() {
                         </Dialog.Title> */}
                       </div>
                       <div className="relative mt-6 flex-1 px-4 sm:px-6">
-                        {/* Your content */}
+                        <div>
+                          <Link href="/installation">
+                            <button>Installation</button>
+                          </Link>
+                        </div>
                       </div>
                     </div>
                   </Dialog.Panel>
