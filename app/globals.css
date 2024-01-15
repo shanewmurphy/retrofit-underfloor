@@ -19,6 +19,7 @@ blockquote {
   background-size: cover;
   height: 35vh;
 }
+
 @media (max-width: 768px) {
   .desktop_nav_container {
     display: none;

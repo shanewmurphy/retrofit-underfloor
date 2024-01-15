@@ -27,7 +27,7 @@ export default function Home() {
               alt="Underfloor heating"
             />
           </picture>
-          <div className="relative lg:max-w-4xl md:w-full  lg:mt-72 md:mt-72 sm:mt-72">
+          <div className="relative lg:max-w-4xl md:w-full lg:mt-72 md:mt-72 sm:mt-72">
             <h1 className="text-white lg:text-6xl md:text5xl sm:text-5xl font-bold antialiased">
               Retrofitting Homes with Underfloor Heating
             </h1>

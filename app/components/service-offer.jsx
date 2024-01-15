@@ -14,11 +14,11 @@ export default function ServiceOffer() {
           We are one-stop solution for all your heating and plumbing needs
         </div>
         <div>
-          <h3 className="relative font-semibold text-white lg:text-3xl max-w-[650px] mt-6 max-md:max-w-full">
+          <h3 className="relative font-semibold text-white lg:text-3xl md:text-3xl sm:text-2xl max-w-[650px] mt-6 max-md:max-w-full">
             We are also expert plumbers with over 40 years experience
           </h3>
         </div>
-        <div className="relative text-white text-2xl font-medium max-w-[650px] mt-9 max-md:max-w-full">
+        <div className="relative text-white text-xl font-medium max-w-[650px] mt-9 max-md:max-w-full">
           You won&apos;t need to hire a separate plumber for the connection. We
           handle the entire process from start to finish.
         </div>
