@@ -11,6 +11,7 @@ import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import ServiceOffer from "./components/service-offer";
+import Video from "./components/Video";
 export default function Home() {
   return (
     <div>
@@ -56,6 +57,9 @@ export default function Home() {
       </div>
       <div>
         <PromoTwo />
+      </div>
+      <div>
+        <Video />
       </div>
       <div>
         <Testimonials />

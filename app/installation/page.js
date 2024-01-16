@@ -2,6 +2,7 @@ import NavDesktop from "../components/nav-desktop";
 import ServiceOffer from "../components/service-offer";
 import Testimonials from "../components/Testimonials";
 import PromoTwo from "../components/Promo-Two";
+
 export default function InstallationPage() {
   return (
     <div className="">
@@ -196,6 +197,9 @@ export default function InstallationPage() {
         </div>
         <div>
           <PromoTwo />
+        </div>
+        <div>
+          <Testimonials />
         </div>
       </div>
     </div>
