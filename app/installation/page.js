@@ -1,5 +1,7 @@
 import NavDesktop from "../components/nav-desktop";
-
+import ServiceOffer from "../components/service-offer";
+import Testimonials from "../components/Testimonials";
+import PromoTwo from "../components/Promo-Two";
 export default function InstallationPage() {
   return (
     <div className="">
@@ -107,7 +109,7 @@ export default function InstallationPage() {
           </div>
         </div>
         <div className="w-11/12 my-32 mx-auto">
-          <div className="grid lg:grid-cols-2 gap-24">
+          <div className="grid lg:grid-cols-2 lg:gap-24 md:gap-20 sm:gap-6">
             <div>
               <h3 className="text-zinc-800 lg:text-4xl md:text-5xl sm:text-3xl font-bold">
                 Minimal Disruption with Our Installation Service
@@ -116,12 +118,12 @@ export default function InstallationPage() {
                 Installations can be completed quickly, usually within 3-5
                 working days
               </h4>
-              <p className="font-medium text-lightgrey text-sm mt-4">
+              <p className="font-medium text-lightgrey text-base mt-4">
                 The beauty of our method is that there&apos;s no need to remove
                 or raise the existing screed. This non-invasive process ensures
                 minimal disruption to your home.
               </p>
-              <p className="font-medium text-lightgrey text-sm mt-2">
+              <p className="font-medium text-lightgrey text-base mt-2">
                 Additionally, our system is eco-friendly and energy-efficient,
                 using very low water temperatures to provide a comfortable and
                 uniform level of warmth.
@@ -149,14 +151,14 @@ export default function InstallationPage() {
           </div>
         </div>
         <div className="w-11/12 my-32 mx-auto">
-          <div className="grid lg:grid-cols-2 lg:gap-16">
+          <div className="grid lg:grid-cols-2 lg:gap-16 md:gap-12 sm:gap-6">
             <div>
-              <h3 className="text-zinc-800 lg:w-11/12 font-bold lg:text-4xl md:text-5xl sm:text-3xl">
+              <h3 className="text-zinc-800 lg:mt-7 lg:w-11/12 font-bold lg:text-4xl md:text-5xl sm:text-3xl">
                 Customised Cutting Process for Optimal Results
               </h3>
             </div>
             <div>
-              <p className="font-medium md:mt-6 sm:mt-6 text-lightgrey text-sm">
+              <p className="font-medium md:mt-2 sm:mt-0 text-lightgrey text-base">
                 Our cutting process is tailored specifically to each site,
                 ensuring optimal efficiency and results. With our bespoke
                 approach, we are able to provide a customised solution that
@@ -167,7 +169,7 @@ export default function InstallationPage() {
             </div>
           </div>
           <div className="w-full my-16 mx-auto">
-            <div className="flex-col overflow-hidden self-center relative flex min-h-[420px] w-full max-w-[1160px] mt-20 px-20 py-12 items-start max-md:max-w-full max-md:mt-10 max-md:px-5">
+            <div className="flex-col overflow-hidden self-center relative flex min-h-[420px] w-full max-w-[1400px] mt-20 px-20 py-12 items-start max-md:max-w-full max-md:mt-10 max-md:px-5">
               <picture>
                 <img
                   loading="lazy"
@@ -185,6 +187,15 @@ export default function InstallationPage() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="w-full">
+          <ServiceOffer />
+        </div>
+        <div>
+          <Testimonials />
+        </div>
+        <div>
+          <PromoTwo />
         </div>
       </div>
     </div>
