@@ -8,7 +8,9 @@ export default function MobileSlideNav() {
   return (
     <div>
       <div>
-        <button onClick={() => setOpen(true)}>Menu</button>
+        <button className="font-bold" onClick={() => setOpen(true)}>
+          Menu
+        </button>
       </div>
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={setOpen}>

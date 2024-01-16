@@ -178,10 +178,10 @@ export default function InstallationPage() {
                   alt=""
                 />
               </picture>
-              <div className="relative text-white lg:text-5xl md:text-6xl sm:text-3xl font-bold leading-[60px] mt-28 max-md:max-w-full max-md:text-4xl max-md:mt-10">
+              <div className="relative text-white lg:text-5xl md:text-6xl sm:text-3xl font-bold leading-[60px] lg:mt-32 md:mt-32 sm:mt-40 max-md:max-w-full max-md:text-4xl max-md:mt-10">
                 Quick and Affordable
               </div>
-              <div className="relative text-white lg:text-2xl md:text-3xl sm:text-xl font-semibold leading-9 w-[689px] max-w-full mt-4 mb-5">
+              <div className="relative text-white lg:text-2xl md:text-3xl sm:text-xl font-semibold leading-9 w-[689px] max-w-full mt-4 lg:mb-5">
                 Contact us today to discuss how we can transform your space with
                 our integrated underfloor heating and plumbing services
               </div>
