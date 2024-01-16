@@ -67,9 +67,20 @@ export default function MobileSlideNav() {
                       </div>
                       <div className="relative mt-6 flex-1 px-4 sm:px-6">
                         <div>
-                          <Link href="/installation">
-                            <button>Installation</button>
-                          </Link>
+                          <div>
+                            <Link href="/">
+                              <button className="text-2xl font-bold mb-4">
+                                Home
+                              </button>
+                            </Link>
+                          </div>
+                          <div>
+                            <Link href="/installation">
+                              <button className="text-2xl font-bold mb-4">
+                                Installation
+                              </button>
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </div>

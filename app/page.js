@@ -50,6 +50,9 @@ export default function Home() {
         <Instalation />
       </div>
       <div>
+        <Video />
+      </div>
+      <div>
         <ServiceOffer />
       </div>
       <div>
@@ -57,9 +60,6 @@ export default function Home() {
       </div>
       <div>
         <PromoTwo />
-      </div>
-      <div>
-        <Video />
       </div>
       <div>
         <Testimonials />
