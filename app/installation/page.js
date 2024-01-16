@@ -117,8 +117,8 @@ export default function InstallationPage() {
                 working days
               </h4>
               <p className="font-medium text-lightgrey text-sm mt-4">
-                The beauty of our method is that there's no need to remove or
-                raise the existing screed. This non-invasive process ensures
+                The beauty of our method is that there&apos;s no need to remove
+                or raise the existing screed. This non-invasive process ensures
                 minimal disruption to your home.
               </p>
               <p className="font-medium text-lightgrey text-sm mt-2">
@@ -173,6 +173,7 @@ export default function InstallationPage() {
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
                   className="absolute rounded-md h-full w-full object-cover lg:object-center inset-0"
+                  alt=""
                 />
               </picture>
               <div className="relative text-white lg:text-5xl md:text-6xl sm:text-3xl font-bold leading-[60px] mt-28 max-md:max-w-full max-md:text-4xl max-md:mt-10">
