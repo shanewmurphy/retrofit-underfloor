@@ -58,7 +58,6 @@ export default function Testimonials() {
           pagination={{
             clickable: true,
           }}
-          onSlideChange={() => console.log("slide change")}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >

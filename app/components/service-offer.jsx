@@ -1,7 +1,7 @@
 export default function ServiceOffer() {
   return (
     <div>
-      <div className="flex-col overflow-hidden relative flex min-h-[611px] pl-14 pr-20 py-12 items-start max-md:max-w-full max-md:px-5">
+      <div className="flex-col overflow-hidden relative flex min-h-[550px] lg:mt-32 pl-14 pr-20 py-12 items-start max-md:max-w-full max-md:px-5">
         <picture>
           <img
             loading="lazy"

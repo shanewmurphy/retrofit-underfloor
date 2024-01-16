@@ -19,7 +19,12 @@ blockquote {
   background-size: cover;
   height: 35vh;
 }
-
+.stroke-bg {
+  width: 100vw;
+  background-image: url("/Stroke.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @media (max-width: 768px) {
   .desktop_nav_container {
     display: none;
