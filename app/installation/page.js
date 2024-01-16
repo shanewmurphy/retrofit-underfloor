@@ -168,11 +168,13 @@ export default function InstallationPage() {
           </div>
           <div className="w-full my-16 mx-auto">
             <div className="flex-col overflow-hidden self-center relative flex min-h-[420px] w-full max-w-[1160px] mt-20 px-20 py-12 items-start max-md:max-w-full max-md:mt-10 max-md:px-5">
-              <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
-                className="absolute rounded-md h-full w-full object-cover lg:object-center inset-0"
-              />
+              <picture>
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
+                  className="absolute rounded-md h-full w-full object-cover lg:object-center inset-0"
+                />
+              </picture>
               <div className="relative text-white lg:text-5xl md:text-6xl sm:text-3xl font-bold leading-[60px] mt-28 max-md:max-w-full max-md:text-4xl max-md:mt-10">
                 Quick and Affordable
               </div>
