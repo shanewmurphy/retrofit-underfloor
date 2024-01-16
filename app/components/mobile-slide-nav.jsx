@@ -50,12 +50,15 @@ export default function MobileSlideNav() {
                       <div className="absolute right-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
                         <button
                           type="button"
-                          className="relative rounded-md text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-white"
+                          className="relative rounded-md  text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-white"
                           onClick={() => setOpen(false)}
                         >
                           <span className="absolute -inset-2.5" />
                           <span className="sr-only">Close panel</span>
-                          <XMarkIcon className="h-8 w-8" aria-hidden="true" />
+                          <XMarkIcon
+                            className="h-10 w-10 rounded-full"
+                            aria-hidden="true"
+                          />
                         </button>
                       </div>
                     </Transition.Child>
@@ -65,8 +68,8 @@ export default function MobileSlideNav() {
                           Panel title
                         </Dialog.Title> */}
                       </div>
-                      <div className="relative mt-6 flex-1 px-4 sm:px-6">
-                        <div>
+                      <div className="relative mt-6 flex flex-1 items-center px-4 sm:px-6">
+                        <div className="text-center w-3/4 mx-auto">
                           <div>
                             <Link href="/">
                               <button className="text-2xl font-bold mb-4">
@@ -80,6 +83,34 @@ export default function MobileSlideNav() {
                                 Installation
                               </button>
                             </Link>
+                          </div>
+                          <div>
+                            <Link href="/installation">
+                              <button className="text-2xl font-bold mb-4">
+                                Benefits
+                              </button>
+                            </Link>
+                          </div>
+                          <div>
+                            <Link href="/installation">
+                              <button className="text-2xl font-bold mb-4">
+                                About Us
+                              </button>
+                            </Link>
+                          </div>
+                          <div>
+                            <Link href="/installation">
+                              <button className="text-2xl font-bold mb-4">
+                                Contact Us
+                              </button>
+                            </Link>
+                          </div>
+                          <div className="mt-12">
+                            <h5 className="font-medium text-lg">Call Damien</h5>
+                            <p className="font-semibold mt-1 text-3xl">
+                              086 - 1777288
+                            </p>
+                            <p className="mt-1">info@gmail.com</p>
                           </div>
                         </div>
                       </div>
