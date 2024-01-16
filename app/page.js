@@ -44,13 +44,13 @@ export default function Home() {
         <BenefitsSection />
       </div>
       <div>
+        <Video />
+      </div>
+      <div>
         <UnderfloorHeating />
       </div>
       <div>
         <Instalation />
-      </div>
-      <div>
-        <Video />
       </div>
       <div>
         <ServiceOffer />
