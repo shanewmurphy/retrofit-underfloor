@@ -41,7 +41,7 @@ export default function benefitsPage() {
               <p className="text-base text-white mt-4">
                 Our underfloor heating system serves as the primary heat source,
                 providing the most comfortable and uniform level of warmth. With
-                our system, you won't need any other heating systems.
+                our system, you won&apos;t need any other heating systems.
               </p>
               <div className="grid lg:grid-cols-2 lg:mt-16 md:mt-8 sm:mt-16 gap-8">
                 <div>
