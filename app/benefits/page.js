@@ -1,11 +1,11 @@
 "use client";
-import ServiceOffer from "../components/service-offer";
+
 import PromoTwo from "../components/Promo-Two";
 import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-export default function benefitsPage() {
+export default function BenefitsPage() {
   let [isOpen, setIsOpen] = useState(false);
 
   const closeModal = () => {
