@@ -100,7 +100,7 @@ export default function MobileSlideNav() {
                           <div className="mt-12">
                             <h5 className="font-medium text-lg">Call Damien</h5>
                             <p className="font-bold mt-1 text-2xl">
-                              086 - 1777288
+                              087 - 7618255
                             </p>
                             <p className="mt-1">info@gmail.com</p>
                           </div>
