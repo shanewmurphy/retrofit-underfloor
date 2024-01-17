@@ -186,83 +186,81 @@ export default function BenefitsPage() {
                   className="object-cover relative h-full w-full lg:mt-0 sm:mt-8 rounded-md"
                   alt=""
                 />
-                <div className="">
-                  <h6 className="text-pink-700">
-                    <>
-                      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                        <button
-                          type="button"
-                          onClick={openModal}
-                          className="rounded-md px-4 py-2 text-xl font-medium text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75"
-                        >
-                          <PlayBtn />
-                        </button>
-                      </div>
+                <div>
+                  <>
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                      <button
+                        type="button"
+                        onClick={openModal}
+                        className="rounded-md px-4 py-2 text-xl font-medium text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75"
+                      >
+                        <PlayBtn />
+                      </button>
+                    </div>
 
-                      <Transition appear show={isOpen} as={Fragment}>
-                        <Dialog
-                          as="div"
-                          className="relative z-10"
-                          onClose={closeModal}
+                    <Transition appear show={isOpen} as={Fragment}>
+                      <Dialog
+                        as="div"
+                        className="relative z-10"
+                        onClose={closeModal}
+                      >
+                        <Transition.Child
+                          as={Fragment}
+                          enter="ease-out duration-300"
+                          enterFrom="opacity-0"
+                          enterTo="opacity-100"
+                          leave="ease-in duration-200"
+                          leaveFrom="opacity-100"
+                          leaveTo="opacity-0"
                         >
-                          <Transition.Child
-                            as={Fragment}
-                            enter="ease-out duration-300"
-                            enterFrom="opacity-0"
-                            enterTo="opacity-100"
-                            leave="ease-in duration-200"
-                            leaveFrom="opacity-100"
-                            leaveTo="opacity-0"
-                          >
-                            <div className="fixed inset-0 bg-black/25" />
-                          </Transition.Child>
+                          <div className="fixed inset-0 bg-black/25" />
+                        </Transition.Child>
 
-                          <div className="fixed inset-0 overflow-y-auto">
-                            <div className="flex min-h-full items-center justify-center p-4 text-center">
-                              <Transition.Child
-                                as={Fragment}
-                                enter="ease-out duration-300"
-                                enterFrom="opacity-0 scale-95"
-                                enterTo="opacity-100 scale-100"
-                                leave="ease-in duration-200"
-                                leaveFrom="opacity-100 scale-100"
-                                leaveTo="opacity-0 scale-95"
-                              >
-                                <Dialog.Panel className="lg:w-4/6 md:w-11/12 sm:w-11/12 transform overflow-hidden rounded-xl bg-white p-4 text-left align-middle shadow-xl transition-all">
-                                  <Dialog.Title
-                                    as="h3"
-                                    className="text-lg font-medium leading-6 text-gray-900"
-                                  ></Dialog.Title>
-                                  <div className="mt-2">
-                                    <div className="video-responsive">
-                                      <iframe
-                                        width="854"
-                                        height="480"
-                                        src="https://www.youtube.com/embed/jpCJfYoXdC0?si=bUzz32HdwaCn_K6G"
-                                        title="YouTube video player"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowFullScreen
-                                      ></iframe>
-                                    </div>
+                        <div className="fixed inset-0 overflow-y-auto">
+                          <div className="flex min-h-full items-center justify-center p-4 text-center">
+                            <Transition.Child
+                              as={Fragment}
+                              enter="ease-out duration-300"
+                              enterFrom="opacity-0 scale-95"
+                              enterTo="opacity-100 scale-100"
+                              leave="ease-in duration-200"
+                              leaveFrom="opacity-100 scale-100"
+                              leaveTo="opacity-0 scale-95"
+                            >
+                              <Dialog.Panel className="lg:w-4/6 md:w-11/12 sm:w-11/12 transform overflow-hidden rounded-xl bg-white p-4 text-left align-middle shadow-xl transition-all">
+                                <Dialog.Title
+                                  as="h3"
+                                  className="text-lg font-medium leading-6 text-gray-900"
+                                ></Dialog.Title>
+                                <div className="mt-2">
+                                  <div className="video-responsive">
+                                    <iframe
+                                      width="854"
+                                      height="480"
+                                      src="https://www.youtube.com/embed/jpCJfYoXdC0?si=bUzz32HdwaCn_K6G"
+                                      title="YouTube video player"
+                                      frameBorder="0"
+                                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                      allowFullScreen
+                                    ></iframe>
                                   </div>
-                                  <div className="mt-4">
-                                    <button
-                                      type="button"
-                                      className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                                      onClick={closeModal}
-                                    >
-                                      Got it, thanks!
-                                    </button>
-                                  </div>
-                                </Dialog.Panel>
-                              </Transition.Child>
-                            </div>
+                                </div>
+                                <div className="mt-4">
+                                  <button
+                                    type="button"
+                                    className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                                    onClick={closeModal}
+                                  >
+                                    Got it, thanks!
+                                  </button>
+                                </div>
+                              </Dialog.Panel>
+                            </Transition.Child>
                           </div>
-                        </Dialog>
-                      </Transition>
-                    </>
-                  </h6>
+                        </div>
+                      </Dialog>
+                    </Transition>
+                  </>
                 </div>
               </picture>
             </div>
