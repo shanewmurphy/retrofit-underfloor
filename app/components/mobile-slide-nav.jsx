@@ -60,11 +60,6 @@ export default function MobileSlideNav() {
                       </div>
                     </Transition.Child>
                     <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-                      <div className="px-4 sm:px-6">
-                        {/* <Dialog.Title className="text-base font-semibold leading-6 text-gray-900">
-                          Panel title
-                        </Dialog.Title> */}
-                      </div>
                       <div className="relative mt-6 flex flex-1 items-center px-4 sm:px-6">
                         <div className="text-center w-3/4 mx-auto">
                           <div>
@@ -82,7 +77,7 @@ export default function MobileSlideNav() {
                             </Link>
                           </div>
                           <div>
-                            <Link href="/installation">
+                            <Link href="/benefits">
                               <button className="text-2xl font-bold mb-4">
                                 Benefits
                               </button>
