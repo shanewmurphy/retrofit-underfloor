@@ -50,15 +50,12 @@ export default function MobileSlideNav() {
                       <div className="absolute right-0 top-0 -ml-8 flex pr-2 pt-4 sm:-ml-10 sm:pr-4">
                         <button
                           type="button"
-                          className="relative rounded-md  text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-white"
+                          className="relative rounded-full  text-black hover:text-black focus:ring-2 focus:ring-white"
                           onClick={() => setOpen(false)}
                         >
-                          <span className="absolute -inset-2.5" />
+                          <span className="absolute rounded-full border-red-500 -inset-2.5" />
                           <span className="sr-only">Close panel</span>
-                          <XMarkIcon
-                            className="h-10 w-10 rounded-full"
-                            aria-hidden="true"
-                          />
+                          <XMarkIcon className="h-10 w-10" aria-hidden="true" />
                         </button>
                       </div>
                     </Transition.Child>
@@ -107,7 +104,7 @@ export default function MobileSlideNav() {
                           </div>
                           <div className="mt-12">
                             <h5 className="font-medium text-lg">Call Damien</h5>
-                            <p className="font-semibold mt-1 text-3xl">
+                            <p className="font-bold mt-1 text-2xl">
                               086 - 1777288
                             </p>
                             <p className="mt-1">info@gmail.com</p>
