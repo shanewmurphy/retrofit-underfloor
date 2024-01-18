@@ -21,7 +21,7 @@ export default function AboutUs() {
             alt=""
           />
         </picture>
-        <div className="relative text-white lg:w-[60%] md:w-full sm:w-full lg:text-6xl md:text-5xl sm:text-5xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
+        <div className="relative text-white lg:w-[60%] md:w-full sm:w-full lg:text-6xl md:text-5xl sm:text-4xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
           Revolutionising Underfloor Heating
         </div>
         <div className="relative text-white lg:w-[60%] md:w-full sm:w-full lg:text-4xl md:text-2xl sm:text-2xl xs:text-2xl font-semibold leading-10 mt-6 mb-20 max-md:max-w-full max-md:mb-10">
@@ -57,8 +57,8 @@ export default function AboutUs() {
               <p className="text-neutral-700 lg:text-2xl md:text-2xl sm:text-xl lg:mt-12 md:mt-8 sm:mt-6 lg:min-h-80 md:min-h-80 sm:min-h-96 font-semibold">
                 With a combined experience of over 40 years, our team consists
                 of fully qualified plumbers who bring a wealth of knowledge to
-                every project. We've seen the evolution of plumbing technology
-                and have honed our skills to stay ahead of the curve.
+                every project. We&apos;ve seen the evolution of plumbing
+                technology and have honed our skills to stay ahead of the curve.
               </p>
             </div>
           </div>
