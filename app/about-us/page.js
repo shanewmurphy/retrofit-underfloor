@@ -46,7 +46,7 @@ export default function AboutUs() {
           </h3>
         </div>
         <div className="grid lg:grid-cols-2 lg:mt-8 md:mt-8 sm:mt-4 gap-6">
-          <div className="bg-white rounded-xl lg:p-12 md:p12 sm:p-6">
+          <div className="bg-white rounded-xl lg:p-12 md:p12 sm:py-12 sm:px-6">
             <div>
               <O1Icon />
             </div>
@@ -54,7 +54,7 @@ export default function AboutUs() {
               <h4 className="text-neutral-800 lg:text-4xl md:text-3xl sm:text-2xl mt-8 font-semibold">
                 Unmatched Expertise
               </h4>
-              <p className="text-neutral-700 lg:text-2xl md:text-2xl sm:text-xl lg:mt-12 md:mt-8 sm:mt-6 lg:min-h-80 md:min-h-80 sm:min-h-96 font-semibold">
+              <p className="text-neutral-700 lg:text-2xl md:text-2xl sm:text-xl lg:mt-12 md:mt-8 sm:mt-6 lg:min-h-80 md:min-h-80 sm:min-h-auto font-semibold">
                 With a combined experience of over 40 years, our team consists
                 of fully qualified plumbers who bring a wealth of knowledge to
                 every project. We&apos;ve seen the evolution of plumbing
@@ -63,7 +63,7 @@ export default function AboutUs() {
             </div>
           </div>
           <div>
-            <div className="bg-secondary rounded-xl lg:p-12 md:p12 sm:p-6">
+            <div className="bg-secondary rounded-xl lg:p-12 md:p-12 sm:py-12 sm:px-6">
               <div>
                 <O2Icon />
               </div>
@@ -71,7 +71,7 @@ export default function AboutUs() {
                 <h4 className="text-white lg:text-4xl md:text-3xl sm:text-2xl mt-8 font-semibold">
                   Integrated Solutions
                 </h4>
-                <p className="text-white text-2xl lg:text-2xl md:text-2xl sm:text-xl lg:mt-12 md:mt-8 sm:mt-6 lg:min-h-80 md:min-h-80 sm:min-h-96 font-semibold">
+                <p className="text-white text-2xl lg:text-2xl md:text-2xl sm:text-xl lg:mt-12 md:mt-8 sm:mt-6 lg:min-h-80 md:min-h-80 sm:min-h-auto font-semibold">
                   As full-service plumbers, we&apos;re not just about fixing
                   leaks and installing pipes. We&apos;re your complete solution
                   for underfloor heating transformations. Our ability to
