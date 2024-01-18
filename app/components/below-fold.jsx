@@ -9,7 +9,7 @@ export default function BelowFoldSection() {
                 <div className="relative flex grow flex-col items-stretch max-md:max-w-full max-md:mt-10">
                   <div className="text-white max-md:max-w-full antialiased">
                     <h3 className="font-bold lg:text-4xl md:text-4xl sm:text-3xl mb-2 antialiased">
-                      Transform Any Floor into a Underfloor Heating System
+                      Transform Any Floor Into A Underfloor Heating System
                     </h3>
                   </div>
                   <div className="text-gray-300 font-semibold mt-2 max-md:max-w-full">

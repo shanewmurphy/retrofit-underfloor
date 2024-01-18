@@ -44,10 +44,10 @@ export default function Home() {
         <BenefitsSection />
       </div>
       <div>
-        <UnderfloorHeating />
+        <Instalation />
       </div>
       <div>
-        <Instalation />
+        <UnderfloorHeating />
       </div>
       <div>
         <ServiceOffer />

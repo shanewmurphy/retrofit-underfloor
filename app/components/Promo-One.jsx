@@ -10,11 +10,11 @@ export default function PromoOne() {
             alt=""
           />
         </picture>
-        <div className="relative text-white lg:text-8xl md:text-7xl font-bold max-w-[902px] mt-11 max-md:max-w-full max-md:text-5xl max-md:mt-10">
+        <div className="relative text-white lg:text-8xl md:text-7xl sm:text-5xl font-bold max-w-[902px] mt-11 max-md:max-w-full max-md:text-5xl max-md:mt-10">
           Efficiency Without Reconstruction
         </div>
-        <div className="relative text-white font-semibold max-w-[902px] mt-8 mb-8 max-md:max-w-full max-md:mt-4">
-          <h4 className="text-3xl">
+        <div className="relative text-white font-semibold max-w-[902px] mt-6 mb-8 max-md:max-w-full max-md:mt-4">
+          <h4 className="lg:text-3xl md:text-3xl sm:text-2xl">
             Our method eliminates the hassle of removing or raising existing
             screed, making the process quick and hassle-free
           </h4>

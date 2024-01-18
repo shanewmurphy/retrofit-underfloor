@@ -6,7 +6,7 @@ export default function UpgradeFloors() {
           <div>
             <div className="sm:mb-4 font-bold">
               <h2 className="text-white lg:text-5xl md:text-6xl sm:text-4xl leading-snug">
-                Upgrade Your Floors to Underfloor Heating
+                Upgrade Your Floors To Underfloor Heating
               </h2>
             </div>
           </div>

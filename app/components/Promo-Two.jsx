@@ -17,7 +17,7 @@ export default function PromoTwo() {
             srcSet="./boy/little-boy-watching-films-laptop-600-min.jpg"
           ></source>
           <img
-            className="w-full h-full object-cover"
+            className="w-full lg:h-full md:h-full sm:h-[90%] object-cover"
             src="./boy/little-boy-watching-films-laptop-600-min.jpg"
             alt=""
           />
