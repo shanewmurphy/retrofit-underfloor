@@ -1,7 +1,7 @@
 export default function PromoTwo() {
   return (
     <div>
-      <div className="w-full lg:h-auto md:h-auto sm:h-screen relative">
+      <div className="w-full lg:h-auto md:h-auto sm:h-screen bg-zinc-100 relative">
         <picture>
           <source
             media="(min-width: 1200px)"
@@ -17,7 +17,7 @@ export default function PromoTwo() {
             srcSet="./boy/little-boy-watching-films-laptop-600-min.jpg"
           ></source>
           <img
-            className="w-full lg:h-full md:h-full sm:h-[90%] object-cover"
+            className="w-full lg:h-full md:h-full sm:h-[85%] object-cover"
             src="./boy/little-boy-watching-films-laptop-600-min.jpg"
             alt=""
           />
