@@ -1,7 +1,7 @@
 export default function PromoTwo() {
   return (
     <div>
-      <div className="w-full lg:h-auto md:h-auto sm:h-screen bg-zinc-100 relative">
+      <div className="w-full bg-zinc-100 relative">
         <picture>
           <source
             media="(min-width: 1200px)"
@@ -17,7 +17,7 @@ export default function PromoTwo() {
             srcSet="./boy/little-boy-watching-films-laptop-600-min.jpg"
           ></source>
           <img
-            className="w-full lg:h-full md:h-full sm:h-[85%] object-cover"
+            className="w-full lg:h-auto md:h-auto sm:h-svh object-cover"
             src="./boy/little-boy-watching-films-laptop-600-min.jpg"
             alt=""
           />
@@ -32,18 +32,16 @@ export default function PromoTwo() {
               </h5>
               <div className="flex gap-2 mt-12 self-start items-start max-md:mt-10">
                 <div className="text-white text-2xl font-semibold leading-7 whitespace-nowrap mt-1.5">
-                  Call Us
+                  Call Damien
                 </div>
                 <div className="text-white text-2xl font-semibold leading-10 self-stretch grow whitespace-nowrap">
-                  086-1777288
+                  087 - 7618255
                 </div>
               </div>
-              <div className="flex items-center gap-2 mt-3 mb-4 self-start">
-                <div className="text-white text-lg font-semibold leading-6 whitespace-nowrap my-auto">
-                  Email Us
-                </div>
-                <div className="text-white text-xl font-medium leading-9 self-stretch grow whitespace-nowrap">
-                  myemail@gmail.com
+              <div className="flex items-center gap-2 mt-2 mb-4 self-start">
+                <div className="text-white text-xl font-medium">
+                  Serving only the South East of Ireland with Premier Plumbing
+                  and Underfloor Heating Solutions
                 </div>
               </div>
             </div>

@@ -22,11 +22,10 @@ export default function ServiceOffer() {
           You won&apos;t need to hire a separate plumber for the connection. We
           handle the entire process from start to finish.
         </div>
-        {/* <div className="relative text-white text-xl font-medium max-w-[650px] mt-9 mb-32 max-md:max-w-full max-md:mb-10">
-          Unlike other underfloor heating providers, we go beyond just
-          delivering a remarkable heating experience. Why? We are also expert
-          plumbers with 25 years experience
-        </div> */}
+        <div className="text-white text-xl font-medium relative mt-4 max-w-[650px] max-md:max-w-full">
+          Serving only the South East of Ireland with Premier Plumbing and
+          Underfloor Heating Solutions
+        </div>
       </div>
     </div>
   );

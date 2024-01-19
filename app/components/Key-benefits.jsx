@@ -33,7 +33,7 @@ export default function BenefitsSection() {
               <div className="text-zinc-800 lg:text-lg md:text-xl sm:text-xl font-bold leading-7 whitespace-nowrap antialiased">
                 No Sub-floor needed
               </div>
-              <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">
+              <p className="lg:text-sm md:text-sm sm:text-base font-medium text-lightgrey antialiased">
                 Our underfloor heating system is an affordable solution that
                 requires no sub-floor work.
               </p>
@@ -42,7 +42,7 @@ export default function BenefitsSection() {
               <div className="text-zinc-800 lg:text-lg md:text-xl sm:text-xl font-bold leading-7 whitespace-nowrap">
                 Quick Installation
               </div>
-              <p className="text-sm sm:text-base font-medium text-lightgrey antialiased">
+              <p className="lg:text-sm md:text-sm sm:text-base font-medium text-lightgrey antialiased">
                 Installations of our system can be completed in 3 - 5 working
                 days.
               </p>

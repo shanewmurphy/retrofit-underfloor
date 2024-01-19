@@ -39,7 +39,7 @@ export default function Testimonials() {
 
   return (
     <div className="w-full bg-zinc-100">
-      <div className="lg:w-9/12 mx-auto lg:p-28 md:p-24 sm:p-6 sm:pt-4 sm:pb-24">
+      <div className="lg:w-9/12 mx-auto lg:p-28 md:p-24 sm:p-6 sm:pt-24 sm:pb-24">
         <div>
           <h4 className="text-center text-zinc-800 lg:text-4xl md:text-5xl sm:text-4xl font-bold">
             What Our Customers Say

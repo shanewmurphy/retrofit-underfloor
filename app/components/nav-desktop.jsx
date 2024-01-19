@@ -8,8 +8,46 @@ export default function NavDesktop() {
             <LogoB />
           </Link>
         </div>
-        <div>Page Links Here</div>
-        <div>Call Us 086-1777288</div>
+        <div>
+          <ul className="inline-flex">
+            <li className="pr-4">
+              <Link href="/" className="cursor-pointer">
+                <span className="text-base font-semibold relative after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+                  Home
+                </span>
+              </Link>
+            </li>
+            <li className="pr-4">
+              <Link className="cursor-pointer" href="installation">
+                <span className="text-base font-semibold relative after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+                  Installation
+                </span>
+              </Link>
+            </li>
+            <li className="pr-4">
+              <Link href="benefits" className="cursor-pointer">
+                <span className="text-base font-semibold relative after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+                  Benefits
+                </span>
+              </Link>
+            </li>
+            <li className="pr-4">
+              <Link href="about-us" className="cursor-pointer">
+                <span className="text-base font-semibold relative after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+                  About Us
+                </span>
+              </Link>
+            </li>
+            <li className="pr-4">
+              <Link href="about-us" className="cursor-pointer">
+                <span className="text-base font-semibold relative after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+                  Conatct Us
+                </span>
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className="font-semibold">Call Us 087-7618255</div>
       </div>
     </div>
   );

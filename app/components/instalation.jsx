@@ -1,6 +1,6 @@
 export default function Instalation() {
   return (
-    <div className="w-11/12 pt-24 py-24 mb-24 mx-auto">
+    <div className="w-11/12 lg:pt-24 lg:py-24 mb-24 mt-24 mx-auto">
       <div className="grid lg:grid-cols-2 lg:gap-16 antialiased">
         <div>
           <h4 className="text-zinc-800 lg:text-4xl md:text-5xl sm:text-3xl sm:mb-4 font-bold">
