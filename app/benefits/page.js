@@ -81,7 +81,6 @@ export default function BenefitsPage() {
             <div>
               <picture>
                 <img
-                  loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
                   className="rounded-md object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
                 />
@@ -165,7 +164,7 @@ export default function BenefitsPage() {
           </div>
         </div>
 
-        <div className="w-11/12 mx-auto">
+        <div className="w-11/12 lg:pb-48 md:pb-40 sm:pb-40 mx-auto">
           <div className="grid lg:grid-cols-2 lg:gap-12 md:gap-6 sm:gap-2 lg:py-32 md:py-28 sm:py-12 sm:pb-40">
             <div>
               <h3 className="text-white lg:text-4xl md:text-4xl sm:text-2xl font-bold">

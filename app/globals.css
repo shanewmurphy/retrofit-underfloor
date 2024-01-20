@@ -8,6 +8,9 @@
 .mobile-nav {
   display: none;
 }
+a {
+  cursor: pointer;
+}
 blockquote {
   font-size: 4rem;
   line-height: 4.2rem;

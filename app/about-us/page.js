@@ -139,14 +139,16 @@ export default function AboutUs() {
           </h4>
           <p></p>
         </div>
-        <div>
+        <div className="mb-40">
           <h5 className="text-white text-center lg:text-5xl md:text-4xl sm:text-3xl lg:w-[60%] mx-auto lg:font-semibold md:font-semibold sm:font-medium lg:mt-40 md:mt-28 sm:mt-20">
             Ready to experience plumbing excellence?
           </h5>
-          <h6 className="text-white text-center lg:text-3xl md:text-3xl sm:text-lg lg:font-semibold md:font-semibold sm:font-medium lg:mt-6 md:mt-4 sm:mt-2">
+          <h6 className="text-white text-center lg:text-2xl md:text-2xl sm:text-lg font-medium lg:mt-6 md:mt-4 sm:mt-2">
             Get in touch with Damien today
           </h6>
-          <p className="text-white text-center lg:text-3xl md:text-3xl sm:text-2xl font-semibold whitespace-nowrap mt-4"></p>
+          <p className="text-white text-center lg:text-3xl md:text-3xl sm:text-2xl font-semibold whitespace-nowrap mt-2">
+            087-7618255
+          </p>
         </div>
       </div>
     </div>
