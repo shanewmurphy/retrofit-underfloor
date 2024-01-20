@@ -8,8 +8,14 @@ export default function MobileSlideNav() {
   return (
     <div>
       <div>
-        <button className="font-bold" onClick={() => setOpen(true)}>
+        <button
+          className="font-bold text-lg text-zinc-600 flex items-center"
+          onClick={() => setOpen(true)}
+        >
           Menu
+          {/* <span className="inline-block  pl-2">
+            <MenuIcon />
+          </span> */}
         </button>
       </div>
       <Transition.Root show={open} as={Fragment}>
@@ -115,5 +121,29 @@ export default function MobileSlideNav() {
         </Dialog>
       </Transition.Root>
     </div>
+  );
+}
+function MenuIcon() {
+  return (
+    <svg
+      width="25"
+      height="15"
+      viewBox="0 0 35 18"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M35 16.4807C35 15.6385 34.3003 14.9615 33.4354 14.9615H1.55491C0.687561 14.9615 0 15.6409 0 16.4807C0 17.3324 0.68999 18 1.55491 18H33.4354C34.3027 18 35 17.3324 35 16.4807Z"
+        fill="#52525B"
+      />
+      <path
+        d="M1.55491 10.5193H33.4354C34.3027 10.5193 35 9.85165 35 8.98821C35 8.15781 34.3003 7.48074 33.4354 7.48074H1.55491C0.687561 7.48074 0 8.16017 0 8.98821C0 9.85165 0.687561 10.5193 1.55491 10.5193Z"
+        fill="#52525B"
+      />
+      <path
+        d="M1.55491 3.0291H33.4354C34.3027 3.0291 35 2.3709 35 1.50983C35 0.679422 34.3003 0 33.4354 0H1.55491C0.687561 0 0 0.679422 0 1.50983C0 2.3709 0.687561 3.0291 1.55491 3.0291Z"
+        fill="#52525B"
+      />
+    </svg>
   );
 }

@@ -22,24 +22,21 @@ export default function PromoTwo() {
             alt=""
           />
           <div className="absolute top-0 left-0 w-full flex flex-row">
-            <div className="relative z-[1] flex lg:w-[60%] max-w-full flex-col items-stretch pl-14 pr-px py-12 max-md:pl-5">
-              <h4 className="text-white lg:text-6xl md:text-5xl sm:text-4xl font-bold leading-[58px] mt-8 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+            <div className="relative z-[1] flex lg:w-[60%] max-w-full flex-col items-stretch pl-14 lg:py-12 lg:px-12 md:py-12 md:px-12 sm:py-6 sm:px-6 max-md:pl-5">
+              <h4 className="text-white lg:text-6xl md:text-5xl sm:text-5xl font-bold leading-[58px] mt-8 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
                 Experience the ultimate heating comfort
               </h4>
               <h5 className="text-white lg:text-3xl md:text-4xl sm:text-2xl lg:w-[90%] font-semibold leading-8 mt-7 max-md:max-w-full">
                 Upgrade your home with underfloor heating a low temperature
                 heating system
               </h5>
-              <div className="flex gap-2 mt-12 self-start items-start max-md:mt-10">
+              <div className="flex gap-2 lg:mt-6 self-start items-start max-md:mt-10">
                 <div className="text-white text-2xl font-semibold leading-7 whitespace-nowrap mt-1.5">
-                  Call Damien
-                </div>
-                <div className="text-white text-2xl font-semibold leading-10 self-stretch grow whitespace-nowrap">
-                  087 - 7618255
+                  Call Damien 087 - 7618255
                 </div>
               </div>
-              <div className="flex items-center gap-2 mt-2 mb-4 self-start">
-                <div className="text-white text-xl font-medium">
+              <div className="flex items-center gap-2 mt-6 mb-4">
+                <div className="text-white text-lg font-medium">
                   Serving only the South East of Ireland with Premier Plumbing
                   and Underfloor Heating Solutions
                 </div>
