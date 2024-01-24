@@ -131,11 +131,15 @@ export default function AboutUs() {
             Our Vision for the Future
           </h3>
           <h4 className="text-white lg:text-2xl md:text-2xl sm:text-lg font-semibold lg:mt-6 md:mt-6 sm:mt-4">
-            At [Your Company Name], we envision a future where every home
-            experiences the ultimate blend of comfort, efficiency, and elegance.
-            We&apos;re dedicated to staying at the forefront of industry
-            advancements, continually refining our techniques, and embracing
-            innovations that make a positive impact on your daily life.
+            At
+            <span className="text-secondary pl-2 pr-2">
+              B&L Underfloor Heating and Plumbing,
+            </span>
+            we envision a future where every home experiences the ultimate blend
+            of comfort, efficiency, and elegance. We&apos;re dedicated to
+            staying at the forefront of industry advancements, continually
+            refining our techniques, and embracing innovations that make a
+            positive impact on your daily life.
           </h4>
           <p></p>
         </div>
@@ -143,11 +147,14 @@ export default function AboutUs() {
           <h5 className="text-white text-center lg:text-5xl md:text-4xl sm:text-3xl lg:w-[60%] mx-auto lg:font-semibold md:font-semibold sm:font-medium lg:mt-40 md:mt-28 sm:mt-20">
             Ready to experience plumbing excellence?
           </h5>
-          <h6 className="text-white text-center lg:text-2xl md:text-2xl sm:text-lg font-medium lg:mt-6 md:mt-4 sm:mt-2">
-            Get in touch with Damien today
+          <h6 className="text-white text-center lg:text-3xl md:text-2xl sm:text-lg font-medium lg:mt-8 md:mt-4 sm:mt-2">
+            Get in touch with us today
           </h6>
-          <p className="text-white text-center lg:text-3xl md:text-3xl sm:text-2xl font-semibold whitespace-nowrap mt-2">
-            087-7618255
+          <p className="text-white text-center lg:text-2xl md:text-3xl sm:text-2xl font-semibold whitespace-nowrap mt-6">
+            Liam 087-2605262
+          </p>
+          <p className="text-white text-center lg:text-2xl md:text-3xl sm:text-2xl font-semibold whitespace-nowrap mt-2">
+            Damien 087-7618255
           </p>
         </div>
       </div>

@@ -104,11 +104,17 @@ export default function MobileSlideNav() {
                             </Link>
                           </div>
                           <div className="mt-12">
-                            <h5 className="font-medium text-lg">Call Damien</h5>
+                            <h5 className="font-medium text-lg">Call Liam</h5>
+                            <p className="font-bold mt-1 text-2xl">
+                              087 - 2605262
+                            </p>
+                            <h5 className="font-medium text-lg mt-6">
+                              Call Damien
+                            </h5>
                             <p className="font-bold mt-1 text-2xl">
                               087 - 7618255
                             </p>
-                            <p className="mt-1">info@gmail.com</p>
+                            {/* <p className="mt-1">info@gmail.com</p> */}
                           </div>
                         </div>
                       </div>

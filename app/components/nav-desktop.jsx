@@ -48,7 +48,7 @@ export default function NavDesktop() {
           </ul>
         </div>
         <div className="font-semibold text-base text-zinc-700">
-          Call Us 087-7618255
+          Call Us 087-2605262
         </div>
       </div>
     </div>
