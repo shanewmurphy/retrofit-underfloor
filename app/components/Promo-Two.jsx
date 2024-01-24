@@ -19,7 +19,7 @@ export default function PromoTwo() {
           <img
             className="w-full lg:h-auto md:h-auto sm:h-svh object-cover"
             src="./boy/little-boy-watching-films-laptop-600-min.jpg"
-            alt=""
+            alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
           />
           <div className="absolute top-0 left-0 w-full flex flex-row">
             <div className="relative z-[1] flex lg:w-[60%] max-w-full flex-col items-stretch pl-14 lg:py-12 lg:px-12 md:py-12 md:px-12 sm:py-6 sm:px-6 max-md:pl-5">

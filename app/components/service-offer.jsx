@@ -7,7 +7,7 @@ export default function ServiceOffer() {
             loading="lazy"
             srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3bf66373c66580082c772d0565f1476db76e3eec2c3bcdd4f5c403ab471f75a7?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3bf66373c66580082c772d0565f1476db76e3eec2c3bcdd4f5c403ab471f75a7?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3bf66373c66580082c772d0565f1476db76e3eec2c3bcdd4f5c403ab471f75a7?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3bf66373c66580082c772d0565f1476db76e3eec2c3bcdd4f5c403ab471f75a7?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3bf66373c66580082c772d0565f1476db76e3eec2c3bcdd4f5c403ab471f75a7?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3bf66373c66580082c772d0565f1476db76e3eec2c3bcdd4f5c403ab471f75a7?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3bf66373c66580082c772d0565f1476db76e3eec2c3bcdd4f5c403ab471f75a7?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3bf66373c66580082c772d0565f1476db76e3eec2c3bcdd4f5c403ab471f75a7?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
             className="absolute h-full w-full object-cover object-center inset-0"
-            alt=""
+            alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
           />
         </picture>
         <div className="relative text-white text-4xl font-bold max-w-[650px] mt-9 max-md:max-w-full">

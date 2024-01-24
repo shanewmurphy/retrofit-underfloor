@@ -56,7 +56,7 @@ export default function BenefitsSection() {
                 loading="lazy"
                 src="/floor-iq-machine-two.jpeg"
                 className="object-cover relative h-full w-full lg:mt-0 sm:mt-8 rounded-md"
-                alt=""
+                alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
               />
               <div>
                 <>

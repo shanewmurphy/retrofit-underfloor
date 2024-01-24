@@ -18,7 +18,7 @@ export default function AboutUs() {
           <img
             className="absolute h-full w-full object-cover lg:object-center sm:object-right inset-0"
             src="./Hero/Hero-mobile-620.jpg"
-            alt=""
+            alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
           />
         </picture>
         <div className="relative text-white lg:w-[60%] md:w-full sm:w-full lg:text-6xl md:text-5xl sm:text-4xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">

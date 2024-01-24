@@ -40,7 +40,7 @@ export default function UnderfloorHeating() {
               <img
                 className="w-full h-full object-cover"
                 src="./girl/girl-floor-500-min.jpg"
-                alt=""
+                alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
               />
               <div className="absolute bottom-0 left-0 w-full lg:h-56 md:h-48 sm:h-24 flex">
                 <p className="text-white lg:text-6xl md:text-5xl sm:text-3xl lg:pl-8 md:pl-8 sm:pl-4 lg:w-[60%] md:w-[80%] font-bold">

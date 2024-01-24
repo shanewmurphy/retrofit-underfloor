@@ -23,7 +23,7 @@ export default function InstallationPage() {
           <img
             className="absolute h-full w-full object-cover lg:object-center sm:object-right inset-0"
             src="./Hero/Hero-mobile-620.jpg"
-            alt=""
+            alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
           />
         </picture>
         <div className="relative text-white lg:text-6xl md:text-5xl sm:text-5xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
@@ -86,7 +86,7 @@ export default function InstallationPage() {
                     <img
                       className="rounded-md w-full object-cover"
                       src="./installation/step-three.jpg"
-                      alt=""
+                      alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
                     />
                   </picture>
                   <h4 className="text-white lg:text-base md:text-xl sm:text-xl lg:min-h-5 font-semibold leading-6 mt-3">
@@ -135,7 +135,7 @@ export default function InstallationPage() {
                 <picture>
                   <img
                     src="/installation/installation-pipe.jpg"
-                    alt="Background image"
+                    alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
                     class="w-full h-full"
                   />
                 </picture>
@@ -176,7 +176,7 @@ export default function InstallationPage() {
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6bedb026f4cce104a0d1462e029b05f1a4f9b6b6ca8195922edc45a904926814?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
                   className="absolute rounded-md h-full w-full object-cover lg:object-center inset-0"
-                  alt=""
+                  alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
                 />
               </picture>
               <div className="relative text-white lg:text-5xl md:text-6xl sm:text-3xl font-bold leading-[60px] lg:mt-32 md:mt-32 sm:mt-40 max-md:max-w-full max-md:text-4xl max-md:mt-10">
