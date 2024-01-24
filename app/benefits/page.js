@@ -34,7 +34,7 @@ export default function BenefitsPage() {
           <img
             className="absolute h-full w-full object-cover lg:object-center sm:object-right inset-0"
             src="./Hero/Hero-mobile-620.jpg"
-            alt=""
+            alt="B&L Underfloor Heating & Plumbing, South East of Ireland"
           />
         </picture>
         <div className="relative text-white lg:text-6xl md:text-5xl sm:text-5xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
@@ -85,6 +85,7 @@ export default function BenefitsPage() {
                 <img
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a292608443015b4daa5a13c029081be3bc5c63125360598ff051fffb4d87d506?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
                   className="rounded-md object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
+                  alt="B&L Underfloor Heating & Plumbing, South East of Ireland"
                 />
               </picture>
             </div>
@@ -112,6 +113,7 @@ export default function BenefitsPage() {
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/67d2c1a0d03701ce99eb7b2ea4bb004b15cf86876296e8b19c98c5eff03a25d9?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/67d2c1a0d03701ce99eb7b2ea4bb004b15cf86876296e8b19c98c5eff03a25d9?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/67d2c1a0d03701ce99eb7b2ea4bb004b15cf86876296e8b19c98c5eff03a25d9?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/67d2c1a0d03701ce99eb7b2ea4bb004b15cf86876296e8b19c98c5eff03a25d9?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/67d2c1a0d03701ce99eb7b2ea4bb004b15cf86876296e8b19c98c5eff03a25d9?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/67d2c1a0d03701ce99eb7b2ea4bb004b15cf86876296e8b19c98c5eff03a25d9?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/67d2c1a0d03701ce99eb7b2ea4bb004b15cf86876296e8b19c98c5eff03a25d9?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/67d2c1a0d03701ce99eb7b2ea4bb004b15cf86876296e8b19c98c5eff03a25d9?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
                   className="aspect-[1.12] rounded-md object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
+                  alt="B&L Underfloor Heating & Plumbing, South East of Ireland"
                 />
               </picture>
             </div>
@@ -160,6 +162,7 @@ export default function BenefitsPage() {
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9586b6357879e19f83ba300402eb8bf1a677cc735447b4d4319d038b0afb5593?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9586b6357879e19f83ba300402eb8bf1a677cc735447b4d4319d038b0afb5593?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9586b6357879e19f83ba300402eb8bf1a677cc735447b4d4319d038b0afb5593?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9586b6357879e19f83ba300402eb8bf1a677cc735447b4d4319d038b0afb5593?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9586b6357879e19f83ba300402eb8bf1a677cc735447b4d4319d038b0afb5593?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9586b6357879e19f83ba300402eb8bf1a677cc735447b4d4319d038b0afb5593?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9586b6357879e19f83ba300402eb8bf1a677cc735447b4d4319d038b0afb5593?apiKey=052aa92796d54d509e3efd8cbd8b7989&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9586b6357879e19f83ba300402eb8bf1a677cc735447b4d4319d038b0afb5593?apiKey=052aa92796d54d509e3efd8cbd8b7989&"
                   className="aspect-[0.98] rounded-md object-contain object-center w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
+                  alt="B&L Underfloor Heating & Plumbing, South East of Ireland"
                 />
               </picture>
             </div>
@@ -185,7 +188,7 @@ export default function BenefitsPage() {
                   loading="lazy"
                   src="/floor-iq-machine-two.jpeg"
                   className="object-cover relative h-full w-full lg:mt-0 sm:mt-8 rounded-md"
-                  alt=""
+                  alt="B&L Underfloor Heating & Plumbing, South East of Ireland"
                 />
                 <div>
                   <>
