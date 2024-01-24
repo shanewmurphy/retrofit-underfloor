@@ -39,7 +39,7 @@ export default function NavDesktop() {
               </Link>
             </li>
             <li className="pr-4">
-              <Link href="about-us" className="cursor-pointer">
+              <Link href="contact-us" className="cursor-pointer">
                 <span className="text-base text-zinc-700 font-semibold relative after:bg-zinc-700 after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
                   Contact Us
                 </span>

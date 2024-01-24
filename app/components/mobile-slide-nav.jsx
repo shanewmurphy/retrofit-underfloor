@@ -97,7 +97,7 @@ export default function MobileSlideNav() {
                             </Link>
                           </div>
                           <div>
-                            <Link href="/installation">
+                            <Link href="/contact-us">
                               <button className="text-2xl font-bold mb-4">
                                 Contact Us
                               </button>

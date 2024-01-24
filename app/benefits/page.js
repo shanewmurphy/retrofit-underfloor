@@ -50,7 +50,7 @@ export default function BenefitsPage() {
         <div className="w-11/12 mx-auto">
           <div className="grid lg:grid-cols-2 lg:gap-12 md:gap-6 sm:gap-2 lg:py-32 md:py-28 sm:py-16">
             <div>
-              <h3 className="text-white lg:text-4xl md:text-4xl sm:text-xl font-bold">
+              <h3 className="text-white lg:text-4xl md:text-4xl sm:text-2xl font-bold">
                 The Only Heating Source You Need for a Comfortable Indoor
                 Climate
               </h3>
@@ -61,7 +61,7 @@ export default function BenefitsPage() {
               </p>
               <div className="grid lg:grid-cols-2 lg:mt-16 md:mt-8 sm:mt-8 gap-8">
                 <div>
-                  <h5 className="text-white font-semibold lg:text-xl">
+                  <h5 className="text-white font-semibold lg:text-xl md:text-xl sm:text-xl">
                     Affordable
                   </h5>
                   <p className="text-white lg:text-sm">
@@ -70,7 +70,9 @@ export default function BenefitsPage() {
                   </p>
                 </div>
                 <div>
-                  <h5 className="text-white font-semibold lg:text-xl">Quick</h5>
+                  <h5 className="text-white font-semibold lg:text-xl md:text-xl sm:text-xl">
+                    Quick
+                  </h5>
                   <p className="text-white lg:text-sm">
                     Installations takes 3-5 working days, saving you time and
                     hassle.
@@ -133,7 +135,7 @@ export default function BenefitsPage() {
               </p>
               <div className="grid lg:grid-cols-2 lg:mt-16 md:mt-8 sm:mt-8 gap-8">
                 <div>
-                  <h5 className="text-white font-semibold lg:text-xl">
+                  <h5 className="text-white font-semibold lg:text-xl md:text-xl sm:text-xl">
                     Minimal Disruption
                   </h5>
                   <p className="text-white lg:text-sm">
@@ -142,7 +144,7 @@ export default function BenefitsPage() {
                   </p>
                 </div>
                 <div>
-                  <h5 className="text-white font-semibold lg:text-xl">
+                  <h5 className="text-white font-semibold lg:text-xl md:text-xl sm:text-xl">
                     Efficient Solution
                   </h5>
                   <p className="text-white lg:text-sm">
