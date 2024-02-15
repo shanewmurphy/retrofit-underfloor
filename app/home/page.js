@@ -2,7 +2,7 @@ export default function HomeNew() {
   return (
     <div>
       <div className="relative">
-        <div className="flex-col overflow-hidden self-stretch relative flex min-h-[500px] w-full items-stretch px-16 py-12 max-md:max-w-full max-md:px-5">
+        <div className="flex-col overflow-hidden self-stretch relative flex lg:min-h-[550px] md:min-h-[550px] sm:min-h-[380px] w-full items-stretch px-16 py-12 max-md:max-w-full max-md:px-5">
           <picture>
             <img
               srcSet="/hmeImgs/Home-hero-img-min.jpg"
@@ -11,7 +11,7 @@ export default function HomeNew() {
             />
           </picture>
           <div className="relative lg:max-w-4xl md:w-full">
-            <h1 className="text-white lg:text-5xl md:text5xl sm:text-3xl mt-32 lg:pl-12 lg:w-[75%] font-bold antialiased">
+            <h1 className="text-white lg:text-5xl md:text5xl sm:text-2xl lg:mt-32 md:mt-32 sm:mt-24 lg:pl-12 lg:w-[75%] font-bold antialiased">
               Local Plumbing Services with Over 40 Years of Experience in the
               Southeast of Ireland
             </h1>
@@ -48,8 +48,8 @@ export default function HomeNew() {
       <section>
         <div className="w-full bg-secondary lg:py-32 md:py-24 sm:py-24">
           <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto">
-            <div className="lg:w-[50%] mx-auto">
-              <h3 className="text-white text-center font-bold mb-12 lg:text-4xl md:text-4xl sm:text-3xl">
+            <div className="lg:w-[60%] mx-auto">
+              <h3 className="text-white text-center font-bold mb-12 lg:text-5xl md:text-3xl sm:text-3xl">
                 Providing Quality Plumbing Services You Can Rely On
               </h3>
             </div>
@@ -58,7 +58,7 @@ export default function HomeNew() {
                 <div>
                   <IconA />
                 </div>
-                <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl">
+                <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
                   Expertise in Handling All Your Plumbing Needs
                 </h5>
                 <p className="text-base text-mygrey mt-4">
@@ -72,7 +72,7 @@ export default function HomeNew() {
                   <div>
                     <IconB />
                   </div>
-                  <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl">
+                  <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
                     Efficient Solutions for Your Plumbing Problems
                   </h5>
                   <p className="text-base text-mygrey mt-4">
@@ -87,7 +87,7 @@ export default function HomeNew() {
                   <div>
                     <IconC />
                   </div>
-                  <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl">
+                  <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
                     Reliable Plumbing Services for Your Peace of Mind
                   </h5>
                   <p className="text-base text-mygrey mt-4">
