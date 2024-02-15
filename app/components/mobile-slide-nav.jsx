@@ -103,6 +103,13 @@ export default function MobileSlideNav() {
                               </button>
                             </Link>
                           </div>
+                          <div>
+                            <Link href="/home">
+                              <button className="text-2xl font-bold mb-4">
+                                New Home Page
+                              </button>
+                            </Link>
+                          </div>
                           <div className="mt-12">
                             <h5 className="font-medium text-lg">Call Liam</h5>
                             <p className="font-bold mt-1 text-2xl">
