@@ -1,3 +1,4 @@
+import PromoOne from "../components/Promo-One";
 export default function HomeNew() {
   return (
     <div>
@@ -123,7 +124,7 @@ export default function HomeNew() {
                     <div>
                       <LeaksIcon />
                       <h6 className="lg:text-lg md:text-lg sm:text-xl font-semibold mt-2">
-                        Leak Repairs and Plumbing System Installation
+                        Leak Repairs and Clearing Blocked Drains
                       </h6>
                       <p className="lg:text-sm md:text-sm sm:text-base mt-1">
                         Our skilled plumbers can quickly fix leaks and
@@ -134,7 +135,7 @@ export default function HomeNew() {
                     <div className="mt-8">
                       <HeatingIcon />
                       <h6 className="lg:text-lg md:text-lg sm:text-xl font-semibold mt-2">
-                        Heating Systems Services for Optimal Performance
+                        Installation of all types Heating Systems
                       </h6>
                       <p className="lg:text-sm md:text-sm sm:text-base mt-1">
                         Our heating systems services ensure your system is
@@ -161,9 +162,8 @@ export default function HomeNew() {
                         Renovation and Remodeling Projects
                       </h6>
                       <p className="lg:text-sm md:text-sm sm:text-base mt-1">
-                        We have the expertise to handle all your fixture needs,
-                        from fixing and replacing faucets to toilets and
-                        showers.
+                        Trust our experienced plumbers to handle your renovation
+                        and remodeling projects with precision and expertise.
                       </p>
                     </div>
                   </div>
@@ -172,6 +172,9 @@ export default function HomeNew() {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <PromoOne />
       </section>
     </div>
   );
