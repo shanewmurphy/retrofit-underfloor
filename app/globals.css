@@ -9,7 +9,7 @@
   display: none;
 }
 a {
-  cursor: pointer;
+  cursor: pointer !important;
 }
 blockquote {
   font-size: 4rem;
@@ -20,7 +20,7 @@ blockquote {
   background-image: url("/Footer/Footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 35vh;
+  height: 40vh;
 }
 .stroke-bg {
   width: 100vw;
