@@ -22,11 +22,11 @@ export default function HomeNew() {
         <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto lg:my-36 md:my-24 sm:my-24">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="lg:text-4xl md:text-3xl sm:text-3xl font-bold">
+              <h2 className="lg:text-4xl md:text-3xl sm:text-3xl text-mygrey font-bold">
                 Experience Reliable Plumbing Services with Unmatched Quality and
                 Expertise
               </h2>
-              <p className="text-base font-medium mt-6">
+              <p className="text-base  text-mygrey font-medium mt-6">
                 At our plumbing business in the southeast of Ireland, we are
                 committed to providing reliable service, using high-quality
                 materials, and delivering long-lasting workmanship. With over 40
@@ -61,7 +61,7 @@ export default function HomeNew() {
                 <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
                   Expertise in Handling All Your Plumbing Needs
                 </h5>
-                <p className="text-base  text-mygrey mt-4">
+                <p className="text-base font-medium text-mygrey mt-4">
                   Our commitment to quality service, reliability, and expertise
                   ensures that your plumbing needs are met with the utmost care
                   and professionalism.
@@ -75,7 +75,7 @@ export default function HomeNew() {
                   <h5 className="mt-2  font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
                     Efficient Solutions for Your Plumbing Problems
                   </h5>
-                  <p className="text-base text-mygrey mt-4">
+                  <p className="text-base font-medium text-mygrey mt-4">
                     We pride ourselves on providing efficient solutions for a
                     wide range of plumbing issues, ensuring that your plumbing
                     system functions flawlessly.
@@ -87,10 +87,10 @@ export default function HomeNew() {
                   <div>
                     <IconC />
                   </div>
-                  <h5 className="mt-2  font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
+                  <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
                     Plumbing Services for Your Peace of Mind
                   </h5>
-                  <p className="text-base text-mygrey mt-4">
+                  <p className="text-base font-medium text-mygrey mt-4">
                     With over 40 years of experience, our team of skilled
                     plumbers delivers reliable services that you can trust,
                     giving you peace of mind.
@@ -109,7 +109,7 @@ export default function HomeNew() {
                 <h3 className="font-bold text-mygrey lg:text-3xl md:text-4xl sm:text-3xl">
                   Expert Plumbing Services for Your Needs
                 </h3>
-                <p className="text-sm font-medium text-mygrey mt-4">
+                <p className="text-base font-medium text-mygrey mt-4">
                   At our plumbing business, we provide a wide range of services
                   to meet all your plumbing needs. From fixing leaks and
                   installing heating systems and renovation projects, our team
@@ -125,7 +125,7 @@ export default function HomeNew() {
                       <h6 className="lg:text-lg md:text-lg sm:text-xl font-semibold mt-2">
                         Leak Repairs and Plumbing System Installation
                       </h6>
-                      <p className="text-sm mt-1">
+                      <p className="lg:text-sm md:text-sm sm:text-base mt-1">
                         Our skilled plumbers can quickly fix leaks and
                         efficiently install plumbing systems to ensure proper
                         functionality.
@@ -136,7 +136,7 @@ export default function HomeNew() {
                       <h6 className="lg:text-lg md:text-lg sm:text-xl font-semibold mt-2">
                         Heating Systems Services for Optimal Performance
                       </h6>
-                      <p className="text-sm mt-1">
+                      <p className="lg:text-sm md:text-sm sm:text-base mt-1">
                         Our heating systems services ensure your system is
                         working efficiently and providing hot water when you
                         need it.
@@ -149,7 +149,7 @@ export default function HomeNew() {
                       <h6 className="lg:text-lg md:text-lg sm:text-xl font-semibold mt-2">
                         Fixing and Replacing Fixtures with Expertise
                       </h6>
-                      <p className="text-sm mt-1">
+                      <p className="lg:text-sm md:text-sm sm:text-base mt-1">
                         We have the expertise to handle all your fixture needs,
                         from fixing and replacing faucets to toilets and
                         showers.
@@ -160,7 +160,7 @@ export default function HomeNew() {
                       <h6 className="lg:text-lg md:text-lg sm:text-xl font-semibold mt-2">
                         Renovation and Remodeling Projects
                       </h6>
-                      <p className="text-sm  mt-1">
+                      <p className="lg:text-sm md:text-sm sm:text-base mt-1">
                         We have the expertise to handle all your fixture needs,
                         from fixing and replacing faucets to toilets and
                         showers.
@@ -230,8 +230,8 @@ function IconC() {
 function LeaksIcon() {
   return (
     <svg
-      width="52"
-      height="52"
+      width="70"
+      height="70"
       viewBox="0 0 52 52"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -259,8 +259,8 @@ function LeaksIcon() {
 function FixingIcon() {
   return (
     <svg
-      width="52"
-      height="52"
+      width="70"
+      height="70"
       viewBox="0 0 52 52"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -277,8 +277,8 @@ function FixingIcon() {
 function HeatingIcon() {
   return (
     <svg
-      width="52"
-      height="52"
+      width="70"
+      height="70"
       viewBox="0 0 52 52"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -306,8 +306,8 @@ function HeatingIcon() {
 function RemodelingIcon() {
   return (
     <svg
-      width="52"
-      height="52"
+      width="70"
+      height="70"
       viewBox="0 0 52 52"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
