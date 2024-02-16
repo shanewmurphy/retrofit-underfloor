@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Services from "../components/services-carousel";
 export default function HomeNew() {
   return (
     <div>
@@ -48,6 +49,11 @@ export default function HomeNew() {
         </div>
       </section>
       <section>
+        <div className="bg-secondary">
+          <Services />
+        </div>
+      </section>
+      {/* <section>
         <div className="w-full bg-secondary lg:py-32 md:py-24 sm:py-24">
           <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto">
             <div className="lg:w-[60%] mx-auto">
@@ -102,7 +108,7 @@ export default function HomeNew() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section>
         <div className="w-full bg-[#e7e7e7]">
           <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto lg:py-32 md:py-24 sm:py-24">

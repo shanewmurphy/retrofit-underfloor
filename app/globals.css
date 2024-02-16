@@ -64,6 +64,9 @@ blockquote {
     background-size: cover;
     height: 40vh;
   }
+  .swiper-wrapper {
+    width: 90% !important;
+  }
 }
 @media (max-width: 428px) {
   blockquote {
