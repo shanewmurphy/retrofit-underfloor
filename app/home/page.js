@@ -1,4 +1,4 @@
-import PromoOne from "../components/Promo-One";
+import Link from "next/link";
 export default function HomeNew() {
   return (
     <div>
@@ -40,6 +40,7 @@ export default function HomeNew() {
                 <img
                   src="/hmeImgs/Van-sideview-min.png"
                   className="object-cover object-center"
+                  alt=""
                 />
               </picture>
             </div>
@@ -105,7 +106,7 @@ export default function HomeNew() {
       <section>
         <div className="w-full bg-[#e7e7e7]">
           <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto lg:py-32 md:py-24 sm:py-24">
-            <div className="flex lg:flex-row sm:flex-col gap-24">
+            <div className="flex lg:flex-row sm:flex-col lg:gap-24 md:gap-24 sm:gap-8">
               <div className="basis-2/5">
                 <h3 className="font-bold text-mygrey lg:text-3xl md:text-4xl sm:text-3xl">
                   Expert Plumbing Services for Your Needs
@@ -117,6 +118,11 @@ export default function HomeNew() {
                   of experienced plumbers is committed to delivering quality
                   service and reliable solutions.
                 </p>
+                <div className="mt-6">
+                  <picture>
+                    <img src="/hmeImgs/van-right-b.png" />
+                  </picture>
+                </div>
               </div>
               <div className="basis-3/5">
                 <div className="flex lg:flex-row md:flex-row sm:flex-col gap-8">
@@ -174,7 +180,39 @@ export default function HomeNew() {
         </div>
       </section>
       <section>
-        <PromoOne />
+        <div className="w-full bg-[#303030]">
+          <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto lg:py-32 md:py-24 sm:py-24">
+            <div className="grid lg:grid-cols-2 lg:gap-36 md:gap-24 sm:gap-16">
+              <div>
+                <h4 className="text-white lg:text-4xl md:text-6xl sm:text-3xl font-bold">
+                  Upgrade Concrete Floors to Underfloor Heating
+                </h4>
+                <h5 className="text-white lg:text-2xl md:text-3xl sm:text-2xl font-semibold mt-4">
+                  Underfloor Heating Without Reconstruction
+                </h5>
+                <p className="text-white mt-2 font-medium text-xl">
+                  Our method eliminates the hassle of removing or raising
+                  existing screed, making the process quick and hassle-free
+                </p>
+                <div className="mt-6">
+                  <Link href="/installation">
+                    <button className="bg-white py-2 px-8 text-lg rounded-md font-semibold">
+                      Learn More
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div>
+                <picture>
+                  <img
+                    src="/hmeImgs/cut-channels-underfloor.jpg"
+                    className="rounded-lg"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );

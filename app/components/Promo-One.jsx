@@ -10,14 +10,19 @@ export default function PromoOne() {
             alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
           />
         </picture>
-        <div className="relative text-white lg:text-8xl md:text-7xl sm:text-5xl font-bold max-w-[902px] mt-11 max-md:max-w-full max-md:text-5xl max-md:mt-10">
-          Efficiency Without Reconstruction
-        </div>
-        <div className="relative text-white font-semibold max-w-[902px] mt-6 mb-8 max-md:max-w-full max-md:mt-4">
-          <h4 className="lg:text-3xl md:text-3xl sm:text-2xl">
-            Our method eliminates the hassle of removing or raising existing
-            screed, making the process quick and hassle-free
-          </h4>
+        <div className="lg:w-7/12 mt-8 relative">
+          <div>
+            <h4 className="text-[#444545] lg:text-6xl md:text-6xl sm:text-5xl font-bold">
+              Upgrade Your Floors to Underfloor Heating
+            </h4>
+            <h5 className="text-white lg:text-3xl md:text-4xl font-semibold mt-4">
+              Underfloor Heating Without Reconstruction
+            </h5>
+            <p className="text-white mt-6 lg:w-10/12 font-medium lg:text-2xl md:text-3xl">
+              Our method eliminates the hassle of removing or raising existing
+              screed, making the process quick and hassle-free
+            </p>
+          </div>
         </div>
       </div>
     </div>
