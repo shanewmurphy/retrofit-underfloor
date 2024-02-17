@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import Services from "../components/services-carousel";
+import AllFAQ from "../components/All-FAQ";
 export default function HomeNew() {
   return (
     <div>
@@ -163,6 +165,9 @@ export default function HomeNew() {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <AllFAQ />
       </section>
     </div>
   );
