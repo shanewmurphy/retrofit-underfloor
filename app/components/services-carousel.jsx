@@ -61,7 +61,11 @@ export default function Services() {
               slidesPerView: 2,
               spaceBetween: 20,
             },
-            1024: {
+            1240: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1300: {
               slidesPerView: 3,
               spaceBetween: 20,
             },
@@ -93,7 +97,7 @@ export default function Services() {
             </div>
           </div>
         </Swiper>
-        <div className="mt-8 lg:hidden mx-auto">
+        <div className="mt-8 lg:hidden md:visible mx-auto">
           <div className="flex justify-end">
             <div className="mr-4">
               <button onClick={() => swiperRef.current.slidePrev()}>

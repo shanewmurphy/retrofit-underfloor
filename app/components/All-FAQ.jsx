@@ -5,9 +5,18 @@ export default function AllFAQ() {
   const [selectedIndex, setSelectedIndex] = useState(0);
   return (
     <div className="w-full py-32">
+      <div className="lg:px-24 lg:py-12 md:px-24 md:py-24 sm:px-4 sm:py-8">
+        <h3 className="text-center text-5xl text-mygrey font-bold mb-2">
+          FAQs
+        </h3>
+        <p className="text-center font-medium lg:text-lg sm:text-sm text-lightgrey lg:w-[50%] mx-auto">
+          Find answers to the most common questions about our underfloor heating
+          system and installation process.
+        </p>
+      </div>
       <div className="lg:w-9/12 mx-auto">
         <Tab.Group selectedIndex={selectedIndex} onChange={setSelectedIndex}>
-          <div className="lg:w-4/12 md:w-6/12 sm:w-8/12 mx-auto bg-[#f8f8f6] px-4 py-3 rounded-xl">
+          <div className="lg:w-4/12 md:w-[45%] sm:w-[60%] mx-auto bg-[#f8f8f6] px-4 py-3 rounded-xl">
             <Tab.List>
               <div className="flex justify-between">
                 <Tab
