@@ -3,7 +3,7 @@ import Services from "../components/services-carousel";
 export default function HomeNew() {
   return (
     <div>
-      <div className="relative">
+      <div className="relative antialiased">
         <div className="flex-col overflow-hidden self-stretch relative flex lg:min-h-[550px] md:min-h-[550px] sm:min-h-[380px] w-full items-stretch px-16 py-12 max-md:max-w-full max-md:px-5">
           <picture>
             <img
@@ -53,62 +53,6 @@ export default function HomeNew() {
           <Services />
         </div>
       </section>
-      {/* <section>
-        <div className="w-full bg-secondary lg:py-32 md:py-24 sm:py-24">
-          <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto">
-            <div className="lg:w-[60%] mx-auto">
-              <h3 className="text-white text-center font-bold mb-12 lg:text-5xl md:text-3xl sm:text-3xl">
-                Providing Quality Plumbing Services You Can Rely On
-              </h3>
-            </div>
-            <div className="grid lg:grid-cols-3  gap-6">
-              <div className="bg-white  p-8 pb-24">
-                <div>
-                  <IconA />
-                </div>
-                <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
-                  Expertise in Handling All Your Plumbing Needs
-                </h5>
-                <p className="text-base font-medium text-mygrey mt-4">
-                  Our commitment to quality service, reliability, and expertise
-                  ensures that your plumbing needs are met with the utmost care
-                  and professionalism.
-                </p>
-              </div>
-              <div>
-                <div className="bg-white  p-8 pb-24">
-                  <div>
-                    <IconB />
-                  </div>
-                  <h5 className="mt-2  font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
-                    Efficient Solutions for Your Plumbing Problems
-                  </h5>
-                  <p className="text-base font-medium text-mygrey mt-4">
-                    We pride ourselves on providing efficient solutions for a
-                    wide range of plumbing issues, ensuring that your plumbing
-                    system functions flawlessly.
-                  </p>
-                </div>
-              </div>
-              <div>
-                <div className="bg-white  p-8 pb-24">
-                  <div>
-                    <IconC />
-                  </div>
-                  <h5 className="mt-2 font-semibold text-mygrey lg:text-2xl md:text-3xl sm:text-2xl">
-                    Plumbing Services for Your Peace of Mind
-                  </h5>
-                  <p className="text-base font-medium text-mygrey mt-4">
-                    With over 40 years of experience, our team of skilled
-                    plumbers delivers reliable services that you can trust,
-                    giving you peace of mind.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section>
         <div className="w-full bg-[#e7e7e7]">
           <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto lg:py-32 md:py-24 sm:py-24">
@@ -186,7 +130,7 @@ export default function HomeNew() {
         </div>
       </section>
       <section>
-        <div className="w-full bg-[#303030]">
+        <div className="w-full bg-[#303030] antialiased">
           <div className="lg:w-10/12 md:w-10/12 sm:w-11/12 mx-auto lg:py-32 md:py-24 sm:py-24">
             <div className="grid lg:grid-cols-2 lg:gap-36 md:gap-24 sm:gap-16">
               <div>

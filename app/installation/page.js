@@ -5,7 +5,7 @@ import PromoTwo from "../components/Promo-Two";
 import FAQ from "../components/FAQ";
 export default function InstallationPage() {
   return (
-    <div className="">
+    <div>
       <div className="flex-col overflow-hidden self-stretch relative flex min-h-[500px] w-full items-stretch px-16 py-12 max-md:max-w-full max-md:px-5">
         <picture>
           <source

@@ -64,9 +64,12 @@ blockquote {
     background-size: cover;
     height: 40vh;
   }
-  .swiper-slide {
+  .my-swiper {
     width: 85% !important;
   }
+  /* .swiper-slide {
+    width: 85% !important;
+  } */
 }
 @media (max-width: 428px) {
   blockquote {
