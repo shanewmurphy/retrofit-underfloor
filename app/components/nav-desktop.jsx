@@ -20,7 +20,7 @@ export default function NavDesktop() {
             <li className="pr-4">
               <Link className="cursor-pointer" href="installation">
                 <span className="text-base text-zinc-700 font-semibold relative after:bg-black after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
-                  Installation
+                  Underfloor Heating
                 </span>
               </Link>
             </li>

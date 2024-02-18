@@ -21,6 +21,7 @@ module.exports = {
       },
       screens: {
         sm: "358px",
+        laptop: "950px",
       },
     },
   },

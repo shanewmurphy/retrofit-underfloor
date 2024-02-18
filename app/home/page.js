@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Services from "../components/services-carousel";
 import AllFAQ from "../components/All-FAQ";
+import Testimonials from "../components/Testimonials";
 export default function HomeNew() {
   return (
     <div>
@@ -165,6 +166,9 @@ export default function HomeNew() {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <Testimonials />
       </section>
       <section>
         <AllFAQ />
