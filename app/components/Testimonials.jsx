@@ -8,7 +8,7 @@ const data = [
   {
     id: 1,
     name: "Jane M",
-    location: "Cork",
+    location: "Tramore",
     Comment:
       "Choosing underfloor heating was the best decision for our home, and this service made it a breeze. The team worked efficiently, and we didn't have to deal with any mess or reconstruction. Our floors are now not only warm but also as beautiful as ever. Highly recommend!",
   },
@@ -22,14 +22,14 @@ const data = [
   {
     id: 3,
     name: "Sarah L",
-    location: "Wicklow",
+    location: "Dungarvan",
     Comment:
       "As someone who values a minimalist lifestyle, I was hesitant about adding traditional radiators. This underfloor heating conversion changed everything. It's silent, invisible, and adds a touch of luxury to our home without compromising on space. Truly impressed!",
   },
   {
     id: 4,
     name: "David H",
-    location: "Wicklow",
+    location: "Kilkenny",
     Comment:
       "The integrated smart features of this underfloor heating system are a game-changer. Being able to control the heating from my smartphone is not only convenient but also energy-efficient. The team behind the installation was professional and ensured a quick, non-invasive upgrade. I'm a satisfied customer!",
   },
@@ -41,7 +41,7 @@ export default function Testimonials() {
     <div className="w-full bg-zinc-100">
       <div className="lg:w-9/12 mx-auto lg:p-28 md:p-24 sm:p-6 sm:pt-24 sm:pb-24">
         <div>
-          <h4 className="text-center text-zinc-800 lg:text-4xl md:text-5xl sm:text-4xl font-bold">
+          <h4 className="text-center text-zinc-800 lg:text-4xl md:text-5xl sm:text-3xl font-bold">
             What Our Customers Say
           </h4>
         </div>

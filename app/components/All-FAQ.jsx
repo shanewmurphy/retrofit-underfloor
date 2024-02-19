@@ -7,7 +7,7 @@ export default function AllFAQ() {
   return (
     <div className="w-full py-32">
       <div className="lg:px-24 lg:py-12  md:px-16 md:py-8 sm:px-4 sm:py-8">
-        <h3 className="text-center text-5xl text-mygrey font-bold mb-2">
+        <h3 className="text-center lg:text-5xl md:text-4xl sm:text-3xl text-mygrey font-bold mb-2">
           FAQs
         </h3>
         <p className="text-center font-medium lg:text-lg sm:text-sm text-lightgrey lg:w-[50%] md:w-[70%] sm:w-[80%] mx-auto">
@@ -23,8 +23,8 @@ export default function AllFAQ() {
                 <Tab
                   className={({ selected }) =>
                     selected
-                      ? "text-neutral-900 shadow-md font-medium text-sm bg-white lg:py-2 lg:px-9 md:py-2 md:px-9 sm:py-2 sm:px-6 rounded-lg focus:outline-none"
-                      : "text-gray-500 font-medium text-sm lg:py-2 lg:px-9 md:py-2 md:px-9 sm:py-2 sm:px-6  hover:bg-[#f0f0f0] rounded-lg border border-gray-300"
+                      ? "text-neutral-900 shadow-md font-medium text-sm bg-white lg:py-2 lg:px-9 md:py-2 md:px-9 sm:py-2 sm:px-6 rounded-lg focus:outline-none cursor-pointer"
+                      : "text-gray-500 font-medium text-sm lg:py-2 lg:px-9 md:py-2 md:px-9 sm:py-2 sm:px-6  hover:bg-[#f0f0f0] rounded-lg border border-gray-300 cursor-pointer"
                   }
                 >
                   Plumbling
@@ -32,8 +32,8 @@ export default function AllFAQ() {
                 <Tab
                   className={({ selected }) =>
                     selected
-                      ? "text-neutral-900 shadow-md font-medium text-sm bg-white lg:py-2 lg:px-9 md:py-2 md:px-9 sm:py-2 sm:px-6 rounded-lg focus:outline-none"
-                      : "text-gray-500 font-medium text-sm lg:py-2 lg:px-9 md:py-2 md:px-9 sm:py-2 sm:px-6 hover:bg-[#f0f0f0] rounded-lg border border-gray-300"
+                      ? "text-neutral-900 shadow-md font-medium text-sm bg-white lg:py-2 lg:px-9 md:py-2 md:px-9 sm:py-2 sm:px-6 rounded-lg focus:outline-none cursor-pointer"
+                      : "text-gray-500 font-medium text-sm lg:py-2 lg:px-9 md:py-2 md:px-9 sm:py-2 sm:px-6 hover:bg-[#f0f0f0] rounded-lg border border-gray-300 cursor-pointer"
                   }
                 >
                   Underfloor

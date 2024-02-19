@@ -83,13 +83,6 @@ export default function MobileSlideNav() {
                             </Link>
                           </div>
                           <div>
-                            <Link href="/benefits">
-                              <button className="text-2xl font-bold mb-4">
-                                Benefits
-                              </button>
-                            </Link>
-                          </div>
-                          <div>
                             <Link href="/about-us">
                               <button className="text-2xl font-bold mb-4">
                                 About Us
@@ -100,13 +93,6 @@ export default function MobileSlideNav() {
                             <Link href="/contact-us">
                               <button className="text-2xl font-bold mb-4">
                                 Contact Us
-                              </button>
-                            </Link>
-                          </div>
-                          <div>
-                            <Link href="/home">
-                              <button className="text-2xl font-bold mb-4">
-                                New Home Page
                               </button>
                             </Link>
                           </div>
