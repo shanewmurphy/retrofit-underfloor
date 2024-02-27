@@ -29,8 +29,8 @@ export default function ContactUs() {
           <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-24 md:gap-16 sm:gap-12">
             <div>
               <h4 className="text-white font-semibold lg:text-4xl md:text-2xl sm:text-2xl">
-                Have any questions or want to schedule an appointment? We're
-                here to help.
+                Have any questions or want to schedule an appointment?
+                We&apos;re here to help.
               </h4>
             </div>
             <div>
