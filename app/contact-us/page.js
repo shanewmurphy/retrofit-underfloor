@@ -56,7 +56,7 @@ export default function ContactUs() {
               <p className="text-white text-lg">Saturday 9am - 2pm</p>
             </div>
             <div>
-              <h5 className="text-white font-semibold lg:text-3xl lg:text-3xl md:text-xl sm:text-xl mb-2">
+              <h5 className="text-white font-semibold lg:text-3xl md:text-xl sm:text-xl mb-2">
                 Address
               </h5>
               <p className="text-white font-medium lg:text-2xl">JJJJJJJ</p>
