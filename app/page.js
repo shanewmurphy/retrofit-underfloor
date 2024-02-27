@@ -148,7 +148,7 @@ export default function HomeNew() {
                   existing screed, making the process quick and hassle-free
                 </p>
                 <div className="mt-6">
-                  <Link href="/installation">
+                  <Link href="/underfloor-heating">
                     <button className="bg-white py-2 px-8 text-lg rounded-md font-semibold">
                       Learn More
                     </button>

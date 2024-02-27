@@ -6,7 +6,7 @@ import AllFAQ from "../components/All-FAQ";
 export default function InstallationPage() {
   return (
     <div>
-      <div className="flex-col overflow-hidden self-stretch relative flex min-h-[500px] w-full items-stretch px-16 py-12 max-md:max-w-full max-md:px-5">
+      <div className="flex-col overflow-hidden self-stretch relative flex min-h-[500px] w-full items-stretch  py-12 max-md:max-w-full max-md:px-5">
         <picture>
           <source
             media="(min-width: 1200px)"
@@ -26,11 +26,10 @@ export default function InstallationPage() {
             alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
           />
         </picture>
-        <div className="relative text-white lg:text-5xl md:text-5xl sm:text-5xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
-          Transforming Concrete Floor Into A Underfloor Heating System
-        </div>
-        <div className="relative text-white lg:text-4xl md:text-3xl sm:text-3xl xs:text-2xl font-semibold lg:w-3/6 leading-10 mt-6 mb-20 max-md:max-w-full max-md:mb-10">
-          Retrofitting Your Space with Underfloor Heating
+        <div className="relative lg:w-10/12 mx-auto leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
+          <h3 className="text-white lg:text-5xl md:text-5xl sm:text-5xl font-bold lg:w-7/12">
+            Transforming Concrete Floor Into A Underfloor Heating System
+          </h3>
         </div>
       </div>
       <div>
@@ -198,11 +197,11 @@ export default function InstallationPage() {
                   <img
                     src="/installation/installation-pipe.jpg"
                     alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
-                    class="w-full h-full"
+                    className="w-full h-full"
                   />
                 </picture>
-                <div class="absolute bottom-0 left-0 px-6 py-8">
-                  <p class="text-white font-bold lg:text-4xl md:text-5xl sm:text-3xl">
+                <div className="absolute bottom-0 left-0 px-6 py-8">
+                  <p className="text-white font-bold lg:text-4xl md:text-5xl sm:text-3xl">
                     Installation 3-5 days
                   </p>
                   <p className="text-white font-semibold lg:text-2xl md:text-3xl sm:text-xl">

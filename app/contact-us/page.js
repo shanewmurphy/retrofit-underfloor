@@ -1,3 +1,5 @@
+"use client";
+import AllFAQ from "../components/All-FAQ";
 export default function ContactUs() {
   return (
     <div>
@@ -5,34 +7,66 @@ export default function ContactUs() {
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcSet="./Hero/hero-1280.jpg"
+            srcSet="./Hero/hero-about-contact.jpg"
           ></source>
           <source
             media="(min-width: 1240px)"
-            srcSet="./Hero/hero-1280.jpg"
+            srcSet="./Hero/hero-about-contact.jpg"
           ></source>
           <source
             media="(min-width: 620px)"
-            srcSet="./Hero/Hero-mobile-620.jpg"
+            srcSet="./Hero/hero-about-contact-mobile.jpg"
           ></source>
           <img
             className="absolute h-full w-full object-cover lg:object-center sm:object-right inset-0"
-            src="./Hero/Hero-mobile-620.jpg"
-            alt="B&L Underfloor Heating & Plumbing, South East of Ireland"
+            src="./Hero/hero-about-contact-mobile.jpg"
+            alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
           />
         </picture>
-        <div className="relative text-white lg:text-6xl md:text-5xl sm:text-5xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
-          Contact Us
-        </div>
-        <div className="relative text-white lg:text-4xl md:text-2xl sm:text-2xl xs:text-2xl font-semibold lg:w-9/12  mt-6 mb-20 max-md:max-w-full max-md:mb-10">
-          Have any questions or want to schedule an appointment? We&apos;re here
-          to help. <br />
-          Contact us today!
-        </div>
       </div>
       <div className="bg-zinc-800 w-full antialiased">
-        <div className="w-11/12 mx-auto lg:py-40">sss</div>
+        <div className="w-10/12 mx-auto lg:py-24 md:py-24 sm:py-12">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:gap-24 md:gap-16 sm:gap-12">
+            <div>
+              <h4 className="text-white font-semibold lg:text-4xl md:text-2xl sm:text-2xl">
+                Have any questions or want to schedule an appointment? We're
+                here to help.
+              </h4>
+            </div>
+            <div>
+              <h5 className="text-white font-semibold lg:text-3xl md:text-3xl sm:text-2xl mb-2">
+                Contact
+              </h5>
+              <p className="text-white font-medium lg:text-2xl md:text-xl sm:text-xl">
+                Liam - 087-2605262
+              </p>
+              <p className="text-white font-medium lg:text-2xl md:text-xl sm:text-xl">
+                Damien - 087-7618255
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="w-10/12 mx-auto pb-32">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-24">
+            <div>
+              <h5 className="text-white font-semibold lg:text-3xl md:text-xl sm:text-xl mb-2">
+                Business Hours
+              </h5>
+              <p className="text-white text-lg">Monday-Friday 9am - 5pm</p>
+              <p className="text-white text-lg">Saturday 9am - 2pm</p>
+            </div>
+            <div>
+              <h5 className="text-white font-semibold lg:text-3xl lg:text-3xl md:text-xl sm:text-xl mb-2">
+                Address
+              </h5>
+              <p className="text-white font-medium lg:text-2xl">JJJJJJJ</p>
+            </div>
+          </div>
+        </div>
       </div>
+      <section>
+        <AllFAQ />
+      </section>
     </div>
   );
 }

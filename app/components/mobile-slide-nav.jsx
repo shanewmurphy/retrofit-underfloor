@@ -76,7 +76,7 @@ export default function MobileSlideNav() {
                             </Link>
                           </div>
                           <div>
-                            <Link href="/installation">
+                            <Link href="/underfloor-heating">
                               <button className="text-2xl font-bold mb-4">
                                 Underflooor Heating
                               </button>

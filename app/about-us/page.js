@@ -5,28 +5,25 @@ export default function AboutUs() {
         <picture>
           <source
             media="(min-width: 1200px)"
-            srcSet="./Hero/hero-1280.jpg"
+            srcSet="./Hero/hero-about-contact.jpg"
           ></source>
           <source
             media="(min-width: 1240px)"
-            srcSet="./Hero/hero-1280.jpg"
+            srcSet="./Hero/hero-about-contact.jpg"
           ></source>
           <source
             media="(min-width: 620px)"
-            srcSet="./Hero/Hero-mobile-620.jpg"
+            srcSet="./Hero/hero-about-contact-mobile.jpg"
           ></source>
           <img
             className="absolute h-full w-full object-cover lg:object-center sm:object-right inset-0"
-            src="./Hero/Hero-mobile-620.jpg"
+            src="./Hero/hero-about-contact-mobile.jpg"
             alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
           />
         </picture>
-        <div className="relative text-white lg:w-[60%] md:w-full sm:w-full lg:text-6xl md:text-5xl sm:text-4xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
-          Revolutionising Underfloor Heating
-        </div>
-        <div className="relative text-white lg:w-[60%] md:w-full sm:w-full lg:text-4xl md:text-2xl sm:text-2xl xs:text-2xl font-semibold leading-10 mt-6 mb-20 max-md:max-w-full max-md:mb-10">
-          Where expertise meets innovation in plumbing
-        </div>
+        {/* <div className="relative text-white lg:w-[60%] md:w-full sm:w-full lg:text-6xl md:text-5xl sm:text-4xl font-bold leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
+          40 years experience
+        </div> */}
       </div>
       <div className="w-full bg-zinc-800 py-32 lg:px-20 md:px-16 sm:px-6 antialiased">
         <div className="self-stretch max-md:max-w-full">
@@ -133,7 +130,7 @@ export default function AboutUs() {
           <h4 className="text-white lg:text-2xl md:text-2xl sm:text-lg font-semibold lg:mt-6 md:mt-6 sm:mt-4">
             At
             <span className="text-secondary pl-2 pr-2">
-              B&L Underfloor Heating and Plumbing,
+              Southeast Plumbing & Underfloor Heating Solution
             </span>
             we envision a future where every home experiences the ultimate blend
             of comfort, efficiency, and elegance. We&apos;re dedicated to
@@ -144,10 +141,10 @@ export default function AboutUs() {
           <p></p>
         </div>
         <div className="mb-40">
-          <h5 className="text-white text-center lg:text-5xl md:text-4xl sm:text-3xl lg:w-[60%] mx-auto lg:font-semibold md:font-semibold sm:font-medium lg:mt-40 md:mt-28 sm:mt-20">
+          <h5 className="text-white text-center lg:text-4xl md:text-4xl sm:text-3xl lg:w-[60%] mx-auto lg:font-semibold md:font-semibold sm:font-medium lg:mt-40 md:mt-28 sm:mt-20">
             Ready to experience plumbing excellence?
           </h5>
-          <h6 className="text-white text-center lg:text-3xl md:text-2xl sm:text-lg font-medium lg:mt-8 md:mt-4 sm:mt-2">
+          <h6 className="text-white text-center lg:text-3xl md:text-2xl sm:text-lg font-medium lg:mt-6 md:mt-4 sm:mt-2">
             Get in touch with us today
           </h6>
           <p className="text-white text-center lg:text-2xl md:text-3xl sm:text-2xl font-semibold whitespace-nowrap mt-6">
@@ -224,7 +221,7 @@ function O4Icon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="41" cy="41" r="40" stroke="#080808" stroke-width="2" />
+      <circle cx="41" cy="41" r="40" stroke="#080808" strokeWidth="2" />
       <path
         d="M28.918 50.8863V46.0426L41.0629 26.9091H45.239V33.6136H42.7674L35.1112 45.7301V45.9574H52.3697V50.8863H28.918ZM42.881 56V49.4091L42.9947 47.2642V26.9091H48.7617V56H42.881Z"
         fill="#0C0C0C"
