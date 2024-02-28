@@ -12,7 +12,7 @@ export default function HomeNew() {
             <img
               srcSet="/hmeImgs/Home-hero-img-min.jpg"
               className="absolute h-full w-full object-cover object-center inset-0"
-              alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
+              alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
             />
           </picture>
           <div className="relative lg:max-w-4xl md:w-full">
@@ -44,7 +44,7 @@ export default function HomeNew() {
                 <img
                   src="/hmeImgs/Van-sideview-min.png"
                   className="object-cover object-center"
-                  alt=""
+                  alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
                 />
               </picture>
             </div>
@@ -160,6 +160,7 @@ export default function HomeNew() {
                   <img
                     src="/hmeImgs/cut-channels-underfloor.jpg"
                     className="rounded-lg"
+                    alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
                   />
                 </picture>
               </div>

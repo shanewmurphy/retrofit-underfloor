@@ -23,11 +23,11 @@ export default function InstallationPage() {
           <img
             className="absolute h-full w-full object-cover lg:object-center sm:object-right inset-0"
             src="./Hero/Hero-mobile-620.jpg"
-            alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
+            alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
           />
         </picture>
-        <div className="relative lg:w-10/12 mx-auto leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
-          <h3 className="text-white lg:text-5xl md:text-5xl sm:text-5xl font-bold lg:w-7/12">
+        <div className="relative lg:w-10/12 md:w-10/12 mx-auto leading-[72px] lg:mt-24 md:mt-28 sm:mt-28 max-md:max-w-full">
+          <h3 className="text-white lg:text-5xl md:text-5xl sm:text-4xl font-bold lg:w-7/12">
             Transforming Concrete Floor Into A Underfloor Heating System
           </h3>
         </div>
@@ -110,7 +110,7 @@ export default function InstallationPage() {
                     <img
                       className="rounded-md w-full object-cover"
                       src="./installation/step-one.jpg"
-                      alt=""
+                      alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
                     />
                   </picture>
                   <h4 className="text-white lg:text-base md:text-xl sm:text-xl lg:min-h-6  font-semibold leading-6 mt-3">
@@ -128,7 +128,7 @@ export default function InstallationPage() {
                     <img
                       className="rounded-md w-full object-cover"
                       src="./installation/step-two.jpg"
-                      alt=""
+                      alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
                     />
                   </picture>
                   <h4 className="text-white lg:text-base md:text-xl sm:text-xl lg:min-h-5 font-semibold leading-6 mt-3">
@@ -147,7 +147,7 @@ export default function InstallationPage() {
                     <img
                       className="rounded-md w-full object-cover"
                       src="./installation/step-three.jpg"
-                      alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
+                      alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
                     />
                   </picture>
                   <h4 className="text-white lg:text-base md:text-xl sm:text-xl lg:min-h-5 font-semibold leading-6 mt-3">
@@ -196,7 +196,7 @@ export default function InstallationPage() {
                 <picture>
                   <img
                     src="/installation/installation-pipe.jpg"
-                    alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
+                    alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
                     className="w-full h-full"
                   />
                 </picture>

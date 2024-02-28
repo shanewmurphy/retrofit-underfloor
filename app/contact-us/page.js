@@ -20,7 +20,7 @@ export default function ContactUs() {
           <img
             className="absolute h-full w-full object-cover lg:object-center sm:object-right inset-0"
             src="./Hero/hero-about-contact-mobile.jpg"
-            alt="B&L Underfloor Heating & Plumbing Services, South East of Ireland"
+            alt="Southeast Plumbling & underfloor Heating Solutions, South East of Ireland"
           />
         </picture>
       </div>

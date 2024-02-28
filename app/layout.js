@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title:
-    "B&L Underfloor Heating installation & Plumbing Services, South East of Ireland. Best underfloor heating solutions and plumbing services in the South East of Ireland.",
+    "Southeast Plumbing & Underfloor Heating Solution, South East of Ireland. Best underfloor heating solutions and plumbing services in the South East of Ireland.",
   description:
-    "B&L Underfloor Heating and Plumbing Services in the South East of Ireland. Underfloor Heating Without Reconstruction, Our system eliminates the hassle of removing your current floor or raising existing screed.",
+    "Southeast Plumbing & Underfloor Heating Solution in the South East of Ireland. Serving South East Ireland, Waterford, Kilkenny, Carlow, Wexford.",
   keywords:
-    "Underfloor Heating, Plumbing Services, Plumber, Plumber Near Me, South East Ireland, Plumber near me",
+    "Plumbing services Southeast of Ireland, Plumbing Services, Plumber, Plumber Near Me, Underfloor Heating, South East of Ireland",
   location: "South East Ireland, Waterford, Kilkenny, Carlow, Wexford",
   service: "Underfloor Heating System Provider, Plumber, Plumbing",
   locality: "South East Ireland, Waterford, Kilkenny, Carlow, Wexford",
@@ -29,6 +29,9 @@ export default function RootLayout({ children }) {
             <NavBarMobile />
           </div>
           {children}
+        </div>
+        <div>
+          <Footer />
         </div>
       </body>
     </html>
